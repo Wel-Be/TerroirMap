@@ -11,44 +11,65 @@
 </head>
 <body>
 <header class="app-header">
-  <div class="brand"><div class="brand-mark">T</div><div><h1>TerroirMap</h1><p>土地の個性に出会う地図</p></div></div>
-  <span class="version">Version 1.0.0</span>
+  <div class="brand"><div class="brand-mark">T</div><div><h1>TerroirMap</h1><p id="tagline">土地の個性に出会う地図</p></div></div>
+  <div class="header-actions">
+    <button id="language-toggle" class="language-button" type="button">EN</button>
+    <span class="version">Version 1.0.0</span>
+  </div>
 </header>
 <main>
   <section class="intro">
     <p class="eyebrow">DISCOVER LOCAL CRAFT</p>
-    <h2>ワインと日本酒の造り手を探す</h2>
-    <p class="intro-copy">地図から、気になるワイナリーや酒蔵を見つけてみましょう。</p>
+    <h2 id="page-title">ワインと日本酒の造り手を探す</h2>
+    <p class="intro-copy" id="intro-copy">地図から、気になるワイナリーや酒蔵を見つけてみましょう。</p>
   </section>
   <section class="map-panel">
     <div class="map-toolbar">
-      <div class="filter-group" aria-label="表示する施設">
-        <button class="filter-button active" data-filter="all" type="button">すべて</button>
-        <button class="filter-button" data-filter="winery" type="button"><i class="dot winery-dot"></i>ワイナリー</button>
-        <button class="filter-button" data-filter="sake" type="button"><i class="dot sake-dot"></i>酒蔵</button>
+      <div class="filter-group" aria-label="施設の種類">
+        <button class="filter-button active" data-filter="all" id="filter-all" type="button">すべて</button>
+        <button class="filter-button" data-filter="winery" id="filter-winery" type="button"><i class="dot winery-dot"></i>ワイナリー</button>
+        <button class="filter-button" data-filter="sake" id="filter-sake" type="button"><i class="dot sake-dot"></i>酒蔵</button>
       </div>
       <span class="map-count" id="map-count">読み込み中…</span>
     </div>
-    <div id="map" aria-label="ワイナリーと酒蔵の地図"></div>
-    <p class="map-note">地図データ © OpenStreetMap contributors</p>
+    <div class="map-wrap">
+      <div id="map" aria-label="ワイナリーと酒蔵の地図"></div>
+      <button class="locate-button" id="locate-button" type="button" title="現在地を表示">◎ <span id="locate-label">現在地</span></button>
+    </div>
+    <p class="map-note" id="map-note">地図データ © OpenStreetMap contributors</p>
   </section>
-  <section class="help-note"><strong>使い方</strong><p>地図上のマーカーを押すと、施設の情報を確認できます。上のボタンでワイナリーと酒蔵を切り替えられます。</p></section>
+  <div class="main-actions">
+    <button class="favorites-button" id="open-favorites" type="button">☆ <span id="favorites-label">お気に入り一覧</span><span class="favorite-count" id="favorite-count">0</span></button>
+  </div>
+  <section class="help-note"><strong id="how-title">使い方</strong><p id="how-copy">地図上のマーカーを押すと、施設の情報を確認できます。☆を押すとお気に入りに登録できます。</p></section>
 </main>
 <footer class="app-footer">
-  <a href="https://ofuse.me/f3a8ad6a" target="_blank" rel="noopener noreferrer">改善のアイディア・応援はこちら</a>
+  <a href="https://ofuse.me/f3a8ad6a" target="_blank" rel="noopener noreferrer" id="support-link">改善のアイディア・応援はこちら</a>
   <span>Developed by Wel (Be)</span>
 </footer>
+
 <div class="sheet-backdrop" id="sheet-backdrop"></div>
 <section class="detail-sheet" id="detail-sheet" aria-live="polite" aria-label="施設情報">
   <button class="sheet-close" id="sheet-close" type="button" aria-label="閉じる">×</button>
   <p class="detail-type" id="detail-type"></p>
-  <h2 id="detail-name">施設名</h2>
+  <h2 id="detail-name"></h2>
   <div class="detail-content">
-    <div class="detail-row"><span class="detail-label">住所</span><p id="detail-address"></p></div>
-    <div class="detail-row" id="brand-row"><span class="detail-label">代表銘柄</span><p id="detail-brands"></p></div>
+    <div class="detail-row"><span class="detail-label" id="address-label">住所</span><p id="detail-address"></p></div>
+    <div class="detail-row" id="brand-row"><span class="detail-label" id="brand-label">代表銘柄</span><p id="detail-brands"></p></div>
     <a class="website-link" id="detail-website" href="#" target="_blank" rel="noopener noreferrer">公式サイトを見る ↗</a>
+    <button class="favorite-toggle" id="favorite-toggle" type="button">☆ お気に入りに追加</button>
   </div>
 </section>
+
+<section class="favorites-panel" id="favorites-panel" aria-label="お気に入り一覧">
+  <div class="favorites-header">
+    <div><p class="eyebrow" id="favorites-eyebrow">MY PLACES</p><h2 id="favorites-title">お気に入り</h2></div>
+    <button class="sheet-close" id="close-favorites" type="button" aria-label="閉じる">×</button>
+  </div>
+  <div id="favorites-list" class="favorites-list"></div>
+  <p class="favorites-empty" id="favorites-empty">お気に入りに登録した施設はまだありません。</p>
+</section>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="./js/map.js"></script>
 <script src="./js/app.js"></script>
