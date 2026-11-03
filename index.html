@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#26394B">
+  <meta name="description" content="ワイナリーと日本酒酒蔵を地図から探すTerroirMap。">
+  <title>TerroirMap</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="brand"><div class="brand-mark">T</div><div><h1>TerroirMap</h1><p>土地の個性に出会う地図</p></div></div>
+  <span class="version">Version 1.0.0</span>
+</header>
+<main>
+  <section class="intro">
+    <p class="eyebrow">DISCOVER LOCAL CRAFT</p>
+    <h2>ワインと日本酒の造り手を探す</h2>
+    <p class="intro-copy">地図から、気になるワイナリーや酒蔵を見つけてみましょう。</p>
+  </section>
+  <section class="map-panel">
+    <div class="map-toolbar">
+      <div class="filter-group" aria-label="表示する施設">
+        <button class="filter-button active" data-filter="all" type="button">すべて</button>
+        <button class="filter-button" data-filter="winery" type="button"><i class="dot winery-dot"></i>ワイナリー</button>
+        <button class="filter-button" data-filter="sake" type="button"><i class="dot sake-dot"></i>酒蔵</button>
+      </div>
+      <span class="map-count" id="map-count">読み込み中…</span>
+    </div>
+    <div id="map" aria-label="ワイナリーと酒蔵の地図"></div>
+    <p class="map-note">地図データ © OpenStreetMap contributors</p>
+  </section>
+  <section class="help-note"><strong>使い方</strong><p>地図上のマーカーを押すと、施設の情報を確認できます。上のボタンでワイナリーと酒蔵を切り替えられます。</p></section>
+</main>
+<footer class="app-footer">
+  <a href="https://ofuse.me/f3a8ad6a" target="_blank" rel="noopener noreferrer">改善のアイディア・応援はこちら</a>
+  <span>Developed by Wel (Be)</span>
+</footer>
+<div class="sheet-backdrop" id="sheet-backdrop"></div>
+<section class="detail-sheet" id="detail-sheet" aria-live="polite" aria-label="施設情報">
+  <button class="sheet-close" id="sheet-close" type="button" aria-label="閉じる">×</button>
+  <p class="detail-type" id="detail-type"></p>
+  <h2 id="detail-name">施設名</h2>
+  <div class="detail-content">
+    <div class="detail-row"><span class="detail-label">住所</span><p id="detail-address"></p></div>
+    <div class="detail-row" id="brand-row"><span class="detail-label">代表銘柄</span><p id="detail-brands"></p></div>
+    <a class="website-link" id="detail-website" href="#" target="_blank" rel="noopener noreferrer">公式サイトを見る ↗</a>
+  </div>
+</section>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="./js/map.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
