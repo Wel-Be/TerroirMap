@@ -1,0 +1,3 @@
+https://unpkg.com/leaflet@1.9.4/dist/leaflet.js と leaflet.css をダウンロードし、
+このフォルダ（lib/leaflet/）に leaflet.js と leaflet.css の名前で置いてください。
+置くまでは、自動的に unpkg から読み込まれます（地図は動きます）。

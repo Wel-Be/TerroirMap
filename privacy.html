@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#26394B">
+<title>プライバシーについて | TerroirMap</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="brand"><div class="brand-mark">T</div><div><h1>TerroirMap</h1></div></div>
+  <div class="header-actions"><button id="language-toggle" class="language-button" type="button">EN</button></div>
+</header>
+<main class="page">
+<div lang="ja">
+  <h2>プライバシーについて</h2>
+  <p class="meta">TerroirMap Version 1.0.0 ／ 制定：2026年11月4日 ／ 開発者：Wel (Be)</p>
+  <p>TerroirMapは、アカウント登録やログインなしで使えます。個人情報や利用履歴を必要以上に集めない方針です。</p>
+  <h3>お気に入り情報</h3>
+  <p>お気に入りは、お使いのブラウザの localStorage に保存されます。運営者のサーバーには送信されません。ブラウザのデータ消去、端末の変更、別のブラウザでの利用では引き継がれない場合があります。</p>
+  <h3>言語設定</h3>
+  <p>選んだ言語（日本語・英語）も localStorage に保存され、次回の表示に使われます。運営者には送信されません。</p>
+  <h3>現在地の利用</h3>
+  <p>「現在地」ボタンを押したときだけ、ブラウザの位置情報機能を使います。取得した位置は地図の移動にだけ使い、運営者のサーバーへ送信・保存しません。許可しない場合も、通常の地図機能は使えます。</p>
+  <h3>アクセス解析</h3>
+  <p>アクセス状況の把握のため、アクセス解析サービス GoatCounter を利用しています。閲覧ページや参照元、ブラウザ・端末の種類など一般的な情報が GoatCounter に送信されることがあります。お気に入りの内容や現在地を、解析情報として送信する機能はありません。</p>
+  <h3>外部サービスとの通信</h3>
+  <ul>
+    <li>OpenStreetMap：地図の表示のため、地図タイルを取得します。このとき、IPアドレスや閲覧範囲などが地図配信事業者に伝わる可能性があります。</li>
+    <li>GoatCounter：上記のとおりアクセス解析に利用します。</li>
+    <li>地図表示用ライブラリ（Leaflet）は、通常このサイト自身から配信します。ファイルが見つからない場合に限り、unpkg から読み込むことがあります。</li>
+    <li>OFUSE：フッターの「改善のアイディア・応援はこちら」から移動した場合に限り接続します。</li>
+  </ul>
+  <h3>外部サイトへ移動した場合</h3>
+  <p>公式サイトなど外部サイトへのリンクを選ぶと、そのサイトに移動します。移動先での情報の取り扱いは、各サイトの方針に従います。リンクは、利用者が選んだときにだけ開きます。</p>
+  <h3>施設情報について</h3>
+  <p>施設の位置は、「概略位置」と表示されているものは実際の場所と異なる場合があります。お出かけの前に、各施設の公式情報をご確認ください。</p>
+  <p><a href="./index.html">← 地図に戻る</a></p>
+</div>
+<div lang="en">
+  <h2>Privacy</h2>
+  <p class="meta">TerroirMap Version 1.0.0 / Established: 2026-11-04 / Developer: Wel (Be)</p>
+  <p>TerroirMap works without sign-up or login. We aim not to collect personal information or usage history beyond what is necessary.</p>
+  <h3>Favorites</h3>
+  <p>Your favorites are stored in your browser's localStorage. They are not sent to the operator's server. They may not carry over if you clear browser data, change devices, or use another browser.</p>
+  <h3>Language setting</h3>
+  <p>Your language choice (Japanese or English) is also stored in localStorage and used the next time you visit. It is not sent to the operator.</p>
+  <h3>Use of your location</h3>
+  <p>Your browser's location feature is used only when you press the "My location" button. The position is used only to move the map; it is not sent to or stored on the operator's server. If you do not allow it, the rest of the map still works.</p>
+  <h3>Analytics</h3>
+  <p>We use the analytics service GoatCounter to understand how the app is used. General information such as the pages viewed, referrer, and browser or device type may be sent to GoatCounter. There is no feature that sends your favorites or location as analytics data.</p>
+  <h3>Communication with external services</h3>
+  <ul>
+    <li>OpenStreetMap: map tiles are fetched to display the map. Your IP address and the area you view may be visible to the map provider.</li>
+    <li>GoatCounter: used for analytics, as described above.</li>
+    <li>The map library (Leaflet) is normally served from this site. Only if the files are missing, it may be loaded from unpkg.</li>
+    <li>OFUSE: connected only when you follow the "Ideas &amp; support" link in the footer.</li>
+  </ul>
+  <h3>When you leave for an external site</h3>
+  <p>Selecting a link such as an official website takes you to that site, whose own policy applies. Links open only when you choose them.</p>
+  <h3>About facility information</h3>
+  <p>Places marked "Approximate location" may differ from the actual site. Please check each facility's official information before visiting.</p>
+  <p><a href="./index.html">← Back to the map</a></p>
+</div>
+</main>
+<script>
+(function(){
+  var lang="ja";try{lang=localStorage.getItem("terroirmap-language")||"ja";}catch(e){}
+  var btn=document.getElementById("language-toggle");
+  function apply(){document.documentElement.lang=lang;btn.textContent=lang==="ja"?"EN":"日本語";document.title=lang==="ja"?"プライバシーについて | TerroirMap":"Privacy | TerroirMap";}
+  btn.addEventListener("click",function(){lang=lang==="ja"?"en":"ja";try{localStorage.setItem("terroirmap-language",lang);}catch(e){}apply();});
+  apply();
+})();
+</script>
+<script data-goatcounter="https://wel-be.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

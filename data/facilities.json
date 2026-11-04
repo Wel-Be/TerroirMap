@@ -11,7 +11,9 @@
     "website": "",
     "brands": [
       "サンプルワイン（仮）"
-    ]
+    ],
+    "source_url": "",
+    "location_accuracy": "approximate_area"
   },
   {
     "id": "SAMPLE-W002",
@@ -25,7 +27,9 @@
     "website": "",
     "brands": [
       "丘の赤（仮）"
-    ]
+    ],
+    "source_url": "",
+    "location_accuracy": "approximate_area"
   },
   {
     "id": "SAMPLE-W003",
@@ -39,7 +43,9 @@
     "website": "",
     "brands": [
       "海辺の白（仮）"
-    ]
+    ],
+    "source_url": "",
+    "location_accuracy": "approximate_area"
   },
   {
     "id": "SAMPLE-S001",
@@ -53,7 +59,9 @@
     "website": "",
     "brands": [
       "サンプル純米酒（仮）"
-    ]
+    ],
+    "source_url": "",
+    "location_accuracy": "approximate_area"
   },
   {
     "id": "SAMPLE-S002",
@@ -67,7 +75,9 @@
     "website": "",
     "brands": [
       "山里（仮）"
-    ]
+    ],
+    "source_url": "",
+    "location_accuracy": "approximate_area"
   },
   {
     "id": "SAMPLE-S003",
@@ -81,6 +91,8 @@
     "website": "",
     "brands": [
       "蔵のしずく（仮）"
-    ]
+    ],
+    "source_url": "",
+    "location_accuracy": "approximate_area"
   }
 ]

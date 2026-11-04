@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
 :root{--navy:#26394B;--cream:#F4EFE5;--wine:#76547C;--sake:#365D79;--ink:#26313A;--muted:#73808A;--line:#E8E5DE}
-*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{background:#F7F6F2;color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{background:#F7F6F2;color:var(--ink);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Noto Sans JP","Noto Sans CJK JP",Meiryo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 button,a{font:inherit}.app-header{min-height:76px;padding:13px clamp(16px,4vw,42px);display:flex;align-items:center;justify-content:space-between;background:var(--navy);color:white}
 .brand{display:flex;align-items:center;gap:11px}.brand-mark{width:42px;height:42px;border:1px solid #ffffff8c;border-radius:12px;display:grid;place-items:center;font:25px Georgia,serif;color:var(--cream)}
 .brand h1{margin:0;font:500 22px Georgia,serif;letter-spacing:.3px}.brand p{margin:2px 0 0;color:#D8DDE1;font-size:10px;letter-spacing:.08em}
@@ -30,3 +29,9 @@ main{width:min(1100px,100%);margin:0 auto;padding:26px 20px 30px}.intro{margin:4
 .favorite-remove{flex:none;border:0;background:#F2F2EF;color:#68737A;border-radius:7px;padding:7px 9px;font-size:11px;cursor:pointer}
 .favorites-empty{color:var(--muted);font-size:13px;text-align:center;padding:25px 0}
 @media(max-width:600px){.app-header{min-height:68px}.brand-mark{width:38px;height:38px}.brand h1{font-size:20px}.header-actions{gap:7px}.version{font-size:9px}main{padding:21px 12px 24px}.intro{margin:2px 3px 14px}.intro-copy{font-size:12px}.map-toolbar{align-items:flex-start;flex-direction:column;padding:12px;gap:8px}.filter-button{padding:8px 11px}#map{height:62vh;min-height:360px}.app-footer{padding:15px 13px 20px}.detail-sheet,.favorites-panel{padding:25px 20px 28px}}
+
+[hidden]{display:none!important}
+.footer-links{display:flex;flex-wrap:wrap;gap:6px 16px}
+.accuracy-text{color:#8A6A2F!important}
+.page{max-width:760px;margin:0 auto;padding:26px 20px 40px}.page h2{color:var(--navy);font-size:22px;margin:0 0 6px}.page h3{color:var(--navy);font-size:15px;margin:24px 0 6px}.page p,.page li{font-size:13px;line-height:1.8;color:#3E4A53}.page ul{padding-left:20px;margin:6px 0}.page .meta{color:var(--muted);font-size:11px}.page a{color:var(--sake)}
+html[lang="ja"] [lang="en"],html[lang="en"] [lang="ja"]{display:none}
