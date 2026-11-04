@@ -1,0 +1,16 @@
+[
+  {
+    "id": "W-camel-farm-winery",
+    "type": "winery",
+    "name_ja": "キャメルファームワイナリー",
+    "name_en": "CAMEL FARM WINERY",
+    "address_ja": "北海道余市郡余市町登町1740",
+    "address_en": "",
+    "latitude": 43.1886,
+    "longitude": 140.7837,
+    "website": "https://camelfarm.co.jp/",
+    "brands": [],
+    "source_url": "https://camelfarm.co.jp/",
+    "location_accuracy": "approximate_area"
+  }
+]
