@@ -37,3 +37,6 @@ main{width:min(1100px,100%);margin:0 auto;padding:26px 20px 30px}.intro{margin:4
 html[lang="ja"] [lang="en"],html[lang="en"] [lang="ja"]{display:none}
 
 .map-link{background:#fff;color:var(--navy);border:1px solid #CBD3CE}
+.favorite-toggle.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.tab{border:1px solid #DCE2DD;border-radius:999px;background:#fff;color:#52606B;padding:7px 12px;font-size:12px;cursor:pointer}.tab.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.record-date{color:#8A6A2F!important}

@@ -1,98 +1,30 @@
 [
   {
-    "id": "SAMPLE-W001",
+    "id": "W-camel-farm-winery",
     "type": "winery",
-    "name_ja": "サンプルワイナリー（仮）",
-    "name_en": "Sample Winery (Demo)",
-    "address_ja": "山梨県甲府市（サンプル地点）",
-    "address_en": "Kofu, Yamanashi (demo location)",
-    "latitude": 35.6642,
-    "longitude": 138.5684,
-    "website": "",
-    "brands": [
-      "サンプルワイン（仮）"
-    ],
-    "source_url": "",
-    "location_accuracy": "approximate_area"
-  },
-  {
-    "id": "SAMPLE-W002",
-    "type": "winery",
-    "name_ja": "サンプル丘のワイナリー（仮）",
-    "name_en": "Sample Hill Winery (Demo)",
-    "address_ja": "長野県塩尻市（サンプル地点）",
-    "address_en": "Shiojiri, Nagano (demo location)",
-    "latitude": 36.1147,
-    "longitude": 137.9538,
-    "website": "",
-    "brands": [
-      "丘の赤（仮）"
-    ],
-    "source_url": "",
-    "location_accuracy": "approximate_area"
-  },
-  {
-    "id": "SAMPLE-W003",
-    "type": "winery",
-    "name_ja": "サンプル海辺ワイナリー（仮）",
-    "name_en": "Sample Seaside Winery (Demo)",
-    "address_ja": "北海道余市町（サンプル地点）",
-    "address_en": "Yoichi, Hokkaido (demo location)",
+    "name_ja": "キャメルファームワイナリー",
+    "name_en": "CAMEL FARM WINERY",
+    "address_ja": "北海道余市郡余市町登町1740",
+    "address_en": "",
     "latitude": 43.1886,
     "longitude": 140.7837,
-    "website": "",
-    "brands": [
-      "海辺の白（仮）"
-    ],
-    "source_url": "",
+    "website": "https://camelfarm.co.jp/",
+    "brands": [],
+    "source_url": "https://camelfarm.co.jp/",
     "location_accuracy": "approximate_area"
   },
   {
-    "id": "SAMPLE-S001",
-    "type": "sake",
-    "name_ja": "サンプル酒蔵（仮）",
-    "name_en": "Sample Sake Brewery (Demo)",
-    "address_ja": "京都府京都市（サンプル地点）",
-    "address_en": "Kyoto, Kyoto (demo location)",
-    "latitude": 34.9671,
-    "longitude": 135.7727,
-    "website": "",
-    "brands": [
-      "サンプル純米酒（仮）"
-    ],
-    "source_url": "",
-    "location_accuracy": "approximate_area"
-  },
-  {
-    "id": "SAMPLE-S002",
-    "type": "sake",
-    "name_ja": "サンプル山里酒造（仮）",
-    "name_en": "Sample Mountain Sake Brewery (Demo)",
-    "address_ja": "新潟県長岡市（サンプル地点）",
-    "address_en": "Nagaoka, Niigata (demo location)",
-    "latitude": 37.4464,
-    "longitude": 138.8513,
-    "website": "",
-    "brands": [
-      "山里（仮）"
-    ],
-    "source_url": "",
-    "location_accuracy": "approximate_area"
-  },
-  {
-    "id": "SAMPLE-S003",
-    "type": "sake",
-    "name_ja": "サンプル蔵元（仮）",
-    "name_en": "Sample Brewery (Demo)",
-    "address_ja": "香川県丸亀市（サンプル地点）",
-    "address_en": "Marugame, Kagawa (demo location)",
-    "latitude": 34.2896,
-    "longitude": 133.7978,
-    "website": "",
-    "brands": [
-      "蔵のしずく（仮）"
-    ],
-    "source_url": "",
+    "id": "W-niki-hills-winery",
+    "type": "winery",
+    "name_ja": "NIKI Hills Winery",
+    "name_en": "NIKI Hills Winery",
+    "address_ja": "北海道余市郡仁木町旭台148-1",
+    "address_en": "",
+    "latitude": 43.1561552,
+    "longitude": 140.741831,
+    "website": "https://nikihills.co.jp/",
+    "brands": [],
+    "source_url": "https://nikihills.co.jp/",
     "location_accuracy": "approximate_area"
   }
 ]

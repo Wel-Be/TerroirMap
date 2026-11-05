@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#26394B">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TerroirMap">
   <meta name="description" content="ワイナリーと日本酒酒蔵を地図から探すTerroirMap。">
   <title>TerroirMap</title>
   <link rel="stylesheet" href="./lib/leaflet/leaflet.css" onerror="this.onerror=null;this.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'">
@@ -39,7 +44,7 @@
     <p class="map-note" id="map-note">地図データ © OpenStreetMap contributors</p>
   </section>
   <div class="main-actions">
-    <button class="favorites-button" id="open-favorites" type="button">☆ <span id="favorites-label">お気に入り一覧</span><span class="favorite-count" id="favorite-count">0</span></button>
+    <button class="favorites-button" id="open-favorites" type="button">☆ <span id="favorites-label">マイリスト</span></button>
   </div>
   <section class="help-note"><strong id="how-title">使い方</strong><p id="how-copy">地図上のマーカーを押すと、施設の情報を確認できます。☆を押すとお気に入りに登録できます。</p></section>
 </main>
@@ -59,14 +64,21 @@
     <div class="detail-row" id="brand-row"><span class="detail-label" id="brand-label">代表銘柄</span><p id="detail-brands"></p></div>
     <a class="website-link" id="detail-website" href="#" target="_blank" rel="noopener noreferrer">公式サイトを見る ↗</a>
     <a class="website-link map-link" id="detail-gmap" href="#" target="_blank" rel="noopener noreferrer">Googleマップで開く ↗</a>
-    <button class="favorite-toggle" id="favorite-toggle" type="button">☆ お気に入りに追加</button>
+    <button class="favorite-toggle" id="favorite-toggle" type="button" aria-pressed="false">☆ お気に入りに追加</button>
+    <button class="favorite-toggle" id="visit-toggle" type="button" aria-pressed="false">＋ 訪問した</button>
+    <button class="favorite-toggle" id="taste-toggle" type="button" aria-pressed="false">＋ 味わった</button>
   </div>
 </section>
 
-<section class="favorites-panel" id="favorites-panel" aria-label="お気に入り一覧">
+<section class="favorites-panel" id="favorites-panel" aria-label="マイリスト">
   <div class="favorites-header">
-    <div><p class="eyebrow" id="favorites-eyebrow">MY PLACES</p><h2 id="favorites-title">お気に入り</h2></div>
+    <div><p class="eyebrow" id="favorites-eyebrow">MY PLACES</p><h2 id="favorites-title">マイリスト</h2></div>
     <button class="sheet-close" id="close-favorites" type="button" aria-label="閉じる">×</button>
+  </div>
+  <div class="tabs" role="tablist">
+    <button class="tab active" id="tab-favorites" data-tab="favorites" type="button" role="tab">お気に入り</button>
+    <button class="tab" id="tab-visited" data-tab="visited" type="button" role="tab">訪問した</button>
+    <button class="tab" id="tab-tasted" data-tab="tasted" type="button" role="tab">味わった</button>
   </div>
   <div id="favorites-list" class="favorites-list"></div>
   <p class="favorites-empty" id="favorites-empty">お気に入りに登録した施設はまだありません。</p>
@@ -76,6 +88,7 @@
 <script>window.L||document.write('<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"><\/script>');</script>
 <script src="./js/map.js"></script>
 <script src="./js/app.js"></script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("./sw.js").catch(function(){});});}</script>
 <script data-goatcounter="https://wel-be.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
