@@ -12,5 +12,19 @@
     "brands": [],
     "source_url": "https://camelfarm.co.jp/",
     "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-niki-hills-winery",
+    "type": "winery",
+    "name_ja": "NIKI Hills Winery",
+    "name_en": "NIKI Hills Winery",
+    "address_ja": "北海道余市郡仁木町旭台148-1",
+    "address_en": "",
+    "latitude": 43.1561552,
+    "longitude": 140.741831,
+    "website": "https://nikihills.co.jp/",
+    "brands": [],
+    "source_url": "https://nikihills.co.jp/",
+    "location_accuracy": "approximate_area"
   }
 ]
