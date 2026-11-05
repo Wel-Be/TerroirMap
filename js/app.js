@@ -13,7 +13,7 @@ const words={
  add:"☆ お気に入りに追加",remove:"★ お気に入りから削除",favoriteTitle:"お気に入り",empty:"お気に入りに登録した施設はまだありません。",
  wineryType:"WINERY / ワイナリー",sakeType:"SAKE BREWERY / 酒蔵",locating:"現在地を確認しています…",
  locationError:"現在地を取得できませんでした。位置情報の利用を許可しているか確認してください。地図はそのまま利用できます。",
- locationUnsupported:"このブラウザでは現在地を利用できません。",removed:"お気に入りから削除",added:"お気に入りに追加しました",none:"情報なし",removeButton:"削除",positionLabel:"位置",approx:"概略位置です。実際の施設の場所とは異なる場合があります。",privacy:"プライバシーについて",mapNote:"地図データ © OpenStreetMap contributors"
+ locationUnsupported:"このブラウザでは現在地を利用できません。",removed:"お気に入りから削除",added:"お気に入りに追加しました",none:"情報なし",removeButton:"削除",positionLabel:"位置",approx:"概略位置です。実際の施設の場所とは異なる場合があります。",privacy:"プライバシーについて",gmap:"Googleマップで開く ↗",mapNote:"地図データ © OpenStreetMap contributors"
  },
  en:{tagline:"Discover the character of each place",title:"Discover wineries and sake breweries",intro:"Explore wineries and sake breweries on the map.",
  all:"All",winery:"Wineries",sake:"Sake breweries",count:"shown",locate:"My location",favorites:"Favorites",
@@ -22,7 +22,7 @@ const words={
  add:"☆ Add to favorites",remove:"★ Remove from favorites",favoriteTitle:"Favorites",empty:"You have no favorite places yet.",
  wineryType:"WINERY",sakeType:"SAKE BREWERY",locating:"Finding your location…",
  locationError:"Could not get your location. Check your location permission. You can continue using the map.",
- locationUnsupported:"Geolocation is not supported by this browser.",removed:"Removed from favorites",added:"Added to favorites",none:"Not available",removeButton:"Remove",positionLabel:"Location",approx:"Approximate location. It may differ from the actual site.",privacy:"Privacy",mapNote:"Map data © OpenStreetMap contributors"
+ locationUnsupported:"Geolocation is not supported by this browser.",removed:"Removed from favorites",added:"Added to favorites",none:"Not available",removeButton:"Remove",positionLabel:"Location",approx:"Approximate location. It may differ from the actual site.",privacy:"Privacy",gmap:"Open in Google Maps ↗",mapNote:"Map data © OpenStreetMap contributors"
  }
 };
 function t(key){return words[currentLanguage][key]||key;}
@@ -69,6 +69,9 @@ function showDetail(item){
   const link=document.getElementById("detail-website");
   if(item.website){link.href=item.website;link.setAttribute("aria-disabled","false");}
   else{link.removeAttribute("href");link.setAttribute("aria-disabled","true");}
+  // 座標が概略のこともあるため、施設名＋住所で検索します（住所がなければ座標）。リンクは利用者が押したときだけ開きます。
+  const mapQuery=item.address_ja?`${item.name_ja} ${item.address_ja}`:`${item.latitude},${item.longitude}`;
+  document.getElementById("detail-gmap").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(mapQuery);
   document.getElementById("favorite-toggle").textContent=favorites.includes(item.id)?t("remove"):t("add");
   document.getElementById("detail-sheet").classList.add("open");
   document.getElementById("sheet-backdrop").classList.add("open");
@@ -117,6 +120,7 @@ function applyLanguage(){
     "address-label":"address","brand-label":"brands","favorites-title":"favoriteTitle","favorites-empty":"empty","accuracy-label":"positionLabel","privacy-link":"privacy","map-note":"mapNote"};
   Object.entries(mapText).forEach(([id,key])=>document.getElementById(id).textContent=t(key));
   document.getElementById("detail-website").textContent=t("website");
+  document.getElementById("detail-gmap").textContent=t("gmap");
   updateCount();
   if(currentFacility)document.getElementById("favorite-toggle").textContent=favorites.includes(currentFacility.id)?t("remove"):t("add");
 }

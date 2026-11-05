@@ -16,6 +16,10 @@
 3. 2つを `lib/leaflet/` に置く（ファイル名はそのまま）
 置くまでは自動で unpkg から読み込みます。公開前に置いておくと外部通信が減ります。
 
+## 追加機能：Googleマップで開く
+詳細カードに「Googleマップで開く」ボタンを追加しました。押すと、施設名＋住所でGoogleマップを検索して別タブで開きます（住所がないときは座標）。押したときだけ外部サイトへ移動します。プライバシーページにも記載済みです。
+仕様書への反映案：5-2 表示項目に「Googleマップへのリンク」を追加、9-3 外部サービスに Google Maps（リンク先としてのみ）を追加。
+
 ## STEP 5（施設データ）
 ### データ項目（`data/facilities.json`）
 `id` / `type`(winery|sake) / `name_ja` / `name_en` / `address_ja` / `address_en` / `latitude` / `longitude` / `website` / `brands`（配列）/ `source_url`（確認元）/ `location_accuracy`（`exact` または `approximate_area`）

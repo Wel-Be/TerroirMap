@@ -35,3 +35,5 @@ main{width:min(1100px,100%);margin:0 auto;padding:26px 20px 30px}.intro{margin:4
 .accuracy-text{color:#8A6A2F!important}
 .page{max-width:760px;margin:0 auto;padding:26px 20px 40px}.page h2{color:var(--navy);font-size:22px;margin:0 0 6px}.page h3{color:var(--navy);font-size:15px;margin:24px 0 6px}.page p,.page li{font-size:13px;line-height:1.8;color:#3E4A53}.page ul{padding-left:20px;margin:6px 0}.page .meta{color:var(--muted);font-size:11px}.page a{color:var(--sake)}
 html[lang="ja"] [lang="en"],html[lang="en"] [lang="ja"]{display:none}
+
+.map-link{background:#fff;color:var(--navy);border:1px solid #CBD3CE}
