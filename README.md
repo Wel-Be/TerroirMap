@@ -46,6 +46,9 @@
 ### 現在のデータ
 6件はすべて架空のサンプルです（実在施設ではありません）。公開前に、確認済みの実在施設に置き換えてください。
 
+## 座標取得ツール（Node.js がなくても使える）
+`tools/geocode.html` をブラウザで開き、`facilities-master.csv` を選んで「座標を取得」を押すと、住所から座標を調べて表にします。要確認の行はGoogleマップのリンクで確かめ、座標を直接直せます。エラーがなくなったら `facilities.json` をダウンロードして `data/facilities.json` に上書きします。公開サイトに置く必要はありません（手元のファイルをブラウザで開けば動きます）。
+
 ## 仕様書の修正メモ（次回更新時に反映）
 - 8-2 データ項目名を現行コードに合わせる：`name`→`name_ja`、`address`→`address_ja`、`lat/lng`→`latitude/longitude`、`brand/brand_en`→`brands`（配列）
 - 8-2 `location_accuracy` の値：`exact` / `approximate_area`

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TerroirMap 座標取得ツール</title>
+<style>
+body{margin:0;font-family:"Hiragino Sans","Yu Gothic UI","Noto Sans JP",system-ui,sans-serif;background:#F7F6F2;color:#26313A;font-size:14px}
+header{background:#26394B;color:#fff;padding:14px 18px}header h1{margin:0;font-size:18px}
+main{max-width:1100px;margin:0 auto;padding:16px}
+.box{background:#fff;border:1px solid #E8E5DE;border-radius:12px;padding:14px 16px;margin-bottom:14px}
+.box h2{margin:0 0 8px;font-size:15px;color:#26394B}.box p,.box li{line-height:1.7;margin:4px 0}
+button{border:0;border-radius:8px;background:#26394B;color:#fff;padding:10px 14px;font-size:13px;cursor:pointer;margin:4px 6px 4px 0}
+button.sub{background:#EEF1EE;color:#26394B;border:1px solid #DCE2DD}button:disabled{opacity:.4;cursor:default}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:760px}
+th,td{border-bottom:1px solid #E8E5DE;padding:6px 8px;text-align:left;vertical-align:top;font-size:12px}th{background:#F4EFE5}
+td input{width:105px;padding:5px;border:1px solid #CBD3CE;border-radius:6px;font-size:12px}
+.ok{color:#2E6B3E}.warn{color:#8A6A2F}.ng{color:#A33}
+#summary{font-weight:600;margin:6px 0}
+ul.errs{padding-left:18px;color:#A33;font-size:12px}
+a{color:#365D79}
+</style>
+</head>
+<body>
+<header><h1>TerroirMap 座標取得ツール</h1></header>
+<main>
+<div class="box">
+  <h2>使い方</h2>
+  <ol>
+    <li>「CSVを選ぶ」で <b>facilities-master.csv</b> を選びます。</li>
+    <li>「座標を取得」を押します。座標が空欄の行だけ、国土地理院の住所検索で調べます（1件ずつ、時間がかかります）。</li>
+    <li>表の「要確認」「見つからない」の行は、「Googleマップ」リンクで場所を確かめ、緯度・経度を直接書き換えます。</li>
+    <li>エラーがなくなったら「facilities.json をダウンロード」を押し、GitHub の <code>data/facilities.json</code> に上書きします。</li>
+    <li>次回また使えるよう、「座標入りCSVをダウンロード」で保存しておくと便利です。</li>
+  </ol>
+  <p class="warn">自動で取得した座標は「概略位置」です。地図で確かめた行だけ、右の「位置の精度」を「確認済み」にしてください。</p>
+  <p>住所は、「座標を取得」を押したときだけ国土地理院のサービスに送られます。それ以外の通信はありません。このファイルは公開サイトに置く必要はありません。</p>
+</div>
+<div class="box">
+  <input type="file" id="file" accept=".csv,text/csv" style="display:none">
+  <button id="pick" type="button">CSVを選ぶ</button>
+  <button id="run" type="button" disabled>座標を取得</button>
+  <button id="dl-json" class="sub" type="button" disabled>facilities.json をダウンロード</button>
+  <button id="dl-csv" class="sub" type="button" disabled>座標入りCSVをダウンロード</button>
+  <div id="summary"></div>
+  <ul class="errs" id="errors"></ul>
+</div>
+<div class="box table-wrap"><table>
+  <thead><tr><th>施設名</th><th>住所</th><th>緯度</th><th>経度</th><th>位置の精度</th><th>状態</th><th>確認</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table></div>
+</main>
+<script>
+// ---------- 純粋な処理（画面に触れない） ----------
+function parseCSV(text){
+  text=text.replace(/^\uFEFF/,"");
+  const rows=[];let row=[],cell="",q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){cell+='"';i++;} else q=false; } else cell+=c; }
+    else if(c==='"') q=true;
+    else if(c===","){row.push(cell);cell="";}
+    else if(c==="\n"||c==="\r"){ if(c==="\r"&&text[i+1]==="\n")i++; row.push(cell);cell=""; if(row.some(x=>x.trim()!==""))rows.push(row); row=[]; }
+    else cell+=c;
+  }
+  if(cell!==""||row.length){row.push(cell);if(row.some(x=>x.trim()!==""))rows.push(row);}
+  return rows;
+}
+function toItems(rows){
+  const head=rows[0].map(h=>h.trim());
+  return rows.slice(1).filter(r=>!(r[0]||"").trim().startsWith("#")).map(r=>{
+    const o={};head.forEach((h,i)=>{o[h]=(r[i]||"").trim();});
+    const num=v=>v===""||Number.isNaN(Number(v))?null:Number(v);
+    return {id:o.id,type:o.type,name_ja:o.name_ja,name_en:o.name_en,address_ja:o.address_ja,address_en:o.address_en,
+      website:o.website,brands:o.brands,source_url:o.source_url,
+      latitude:num(o.latitude),longitude:num(o.longitude),location_accuracy:o.location_accuracy||"approximate_area",memo:o.memo||"",status:""};
+  });
+}
+function toJSONList(items){
+  return items.map(x=>({id:x.id,type:x.type,name_ja:x.name_ja,name_en:x.name_en,address_ja:x.address_ja,address_en:x.address_en,
+    latitude:x.latitude,longitude:x.longitude,website:x.website,
+    brands:x.brands?x.brands.split("|").map(s=>s.trim()).filter(Boolean):[],
+    source_url:x.source_url,location_accuracy:x.location_accuracy}));
+}
+function validate(list){
+  const errors=[],ids=new Set();
+  list.forEach((x,i)=>{
+    const p=`#${i+1} ${x.id||"(idなし)"}`;
+    if(!x.id)errors.push(p+": id がありません");else if(ids.has(x.id))errors.push(p+": id が重複しています");ids.add(x.id);
+    if(!["winery","sake"].includes(x.type))errors.push(p+": type は winery か sake");
+    if(!x.name_ja)errors.push(p+": 施設名がありません");
+    if(!x.address_ja)errors.push(p+": 住所がありません");
+    if(typeof x.latitude!=="number"||x.latitude<20||x.latitude>46)errors.push(p+": 緯度が未入力、または日本の範囲外");
+    if(typeof x.longitude!=="number"||x.longitude<122||x.longitude>154)errors.push(p+": 経度が未入力、または日本の範囲外");
+    if(x.website&&!/^https?:\/\//.test(x.website))errors.push(p+": 公式サイトは http(s):// で始めてください");
+    if(!["exact","approximate_area"].includes(x.location_accuracy))errors.push(p+": 位置の精度が不正");
+    if(!String(x.id).startsWith("SAMPLE-")&&!/^https?:\/\//.test(x.source_url||""))errors.push(p+": 確認元URLが必要です");
+  });
+  return errors;
+}
+function toCSV(items){
+  const cols=["id","type","name_ja","name_en","address_ja","address_en","website","brands","source_url","latitude","longitude","location_accuracy","memo"];
+  const esc=v=>{v=v===null||v===undefined?"":String(v);return /[",\r\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;};
+  return "\uFEFF"+[cols.join(",")].concat(items.map(x=>cols.map(c=>esc(x[c])).join(","))).join("\r\n")+"\r\n";
+}
+async function geocode(address){
+  const res=await fetch("https://msearch.gsi.go.jp/address-search/AddressSearch?q="+encodeURIComponent(address));
+  if(!res.ok)throw new Error("HTTP "+res.status);
+  const hits=await res.json();
+  if(!Array.isArray(hits)||!hits.length)return null;
+  const best=hits.find(h=>h.properties&&h.properties.title===address)||hits[0];
+  const [lng,lat]=best.geometry.coordinates;
+  return {lat,lng,title:(best.properties&&best.properties.title)||"",exact:!!(best.properties&&best.properties.title===address)};
+}
+// ---------- 画面 ----------
+let items=[];
+const $=id=>document.getElementById(id);
+function render(){
+  const tb=$("rows");tb.innerHTML="";
+  items.forEach(x=>{
+    const tr=document.createElement("tr");
+    const td=(n)=>{const e=document.createElement("td");if(n!==undefined)e.textContent=n;tr.append(e);return e;};
+    td(x.name_ja);td(x.address_ja);
+    [["latitude"],["longitude"]].forEach(([k])=>{
+      const e=td();const i=document.createElement("input");i.value=x[k]===null?"":x[k];
+      i.addEventListener("change",()=>{const v=i.value.trim();x[k]=v===""||Number.isNaN(Number(v))?null:Number(v);refresh();});
+      e.append(i);
+    });
+    const ea=td();const sel=document.createElement("select");
+    [["approximate_area","概略位置"],["exact","確認済み"]].forEach(([v,l])=>{const o=document.createElement("option");o.value=v;o.textContent=l;if(x.location_accuracy===v)o.selected=true;sel.append(o);});
+    sel.addEventListener("change",()=>{x.location_accuracy=sel.value;refresh();});ea.append(sel);
+    const es=td(x.status);es.className=/要確認|見つからない|失敗/.test(x.status)?"warn":(x.status?"ok":"");x._statusCell=es;
+    const el=td();const a=document.createElement("a");a.target="_blank";a.rel="noopener noreferrer";a.textContent="Googleマップ";
+    a.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.name_ja+" "+x.address_ja);el.append(a);
+    tb.append(tr);
+  });
+  refresh();
+}
+function refresh(){
+  const errs=validate(toJSONList(items));
+  $("errors").innerHTML="";errs.slice(0,30).forEach(e=>{const li=document.createElement("li");li.textContent=e;$("errors").append(li);});
+  const missing=items.filter(x=>x.latitude===null||x.longitude===null).length;
+  $("summary").textContent=items.length?`${items.length}件／座標なし ${missing}件／エラー ${errs.length}件`:"";
+  $("dl-json").disabled=!items.length||errs.length>0;
+  $("dl-csv").disabled=!items.length;
+  $("run").disabled=!items.length||missing===0;
+}
+function download(name,text,type){
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;document.body.append(a);a.click();a.remove();
+}
+async function run(){
+  $("run").disabled=true;
+  const todo=items.filter(x=>x.latitude===null||x.longitude===null);
+  let n=0;
+  for(const x of todo){
+    n++;$("summary").textContent=`取得中… ${n}/${todo.length}`;
+    try{
+      const g=await geocode(x.address_ja);
+      if(g){x.latitude=g.lat;x.longitude=g.lng;x.location_accuracy="approximate_area";
+        x.status=g.exact?"取得":"要確認（検索結果: "+g.title+"）";}
+      else x.status="見つからない（住所を確認）";
+    }catch(e){x.status="失敗（"+e.message+"）。座標は手入力してください";}
+    await new Promise(r=>setTimeout(r,1000));
+    render();
+  }
+}
+window.addEventListener("DOMContentLoaded",()=>{
+  $("pick").addEventListener("click",()=>$("file").click());
+  $("file").addEventListener("change",async e=>{
+    const f=e.target.files[0];if(!f)return;
+    items=toItems(parseCSV(await f.text()));render();
+  });
+  $("run").addEventListener("click",run);
+  $("dl-json").addEventListener("click",()=>download("facilities.json",JSON.stringify(toJSONList(items),null,2),"application/json"));
+  $("dl-csv").addEventListener("click",()=>download("facilities-master-with-coords.csv",toCSV(items),"text/csv"));
+});
+</script>
+</body>
+</html>

@@ -13,7 +13,8 @@ list.forEach((x,i)=>{
   if(!x.address_ja)errors.push(p+": address_ja がありません");
   if(typeof x.latitude!=="number"||x.latitude<20||x.latitude>46)errors.push(p+": latitude が日本の範囲外");
   if(typeof x.longitude!=="number"||x.longitude<122||x.longitude>154)errors.push(p+": longitude が日本の範囲外");
-  if(x.website&&!/^https:\/\//.test(x.website))errors.push(p+": website は https:// で始めてください");
+  if(x.website&&!/^https?:\/\//.test(x.website))errors.push(p+": website は http:// か https:// で始めてください");
+  else if(x.website&&x.website.startsWith("http://"))warns.push(p+": website が http:// です（https:// があれば差し替え推奨）");
   if(x.brands!==undefined&&!Array.isArray(x.brands))errors.push(p+": brands は配列");
   if(!["exact","approximate_area"].includes(x.location_accuracy))errors.push(p+": location_accuracy は exact か approximate_area");
   if(!String(x.id).startsWith("SAMPLE-")){
