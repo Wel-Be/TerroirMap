@@ -303,14 +303,14 @@
     "name_en": "Domaine Takahiko",
     "address_ja": "北海道余市郡余市町登町1395",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.16417225952148,
+    "longitude": 140.8191071067466,
     "website": "http://www.takahiko.co.jp/",
     "brands": [
       "ナナツモリ ピノ・ノワール"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-023",
@@ -337,15 +337,15 @@
     "name_en": "",
     "address_ja": "北海道余市郡余市町登町1824",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.15981922369776,
+    "longitude": 140.81909101012116,
     "website": "https://notaterroir.jp/",
     "brands": [
       "風のヴィンヤード",
       "キュベリタ"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-025",
@@ -368,14 +368,14 @@
     "name_en": "",
     "address_ja": "北海道余市郡余市町登町718",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.1733086524961,
+    "longitude": 140.81422347976024,
     "website": "https://noborijozo.com/",
     "brands": [
       "セツナウタ"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-027",
@@ -507,14 +507,14 @@
     "name_en": "",
     "address_ja": "北海道余市郡余市町登町1982-1",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.146943325357704,
+    "longitude": 140.8087440932534,
     "website": "https://mongakuwinery.com/",
     "brands": [
       "モンガク谷"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-035",
@@ -523,12 +523,12 @@
     "name_en": "Viña de oro bodega",
     "address_ja": "北海道余市郡仁木町旭台228-1",
     "address_en": "",
-    "latitude": 43.159164,
-    "longitude": 140.744934,
+    "latitude": 43.15876686499672,
+    "longitude": 140.74978277791095,
     "website": "http://vina-de-oro-bodega.net/",
     "brands": [],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-036",
@@ -537,15 +537,15 @@
     "name_en": "Domaine Bless",
     "address_ja": "北海道余市郡仁木町旭台303",
     "address_en": "",
-    "latitude": 43.159164,
-    "longitude": 140.744934,
+    "latitude": 43.16205358880419,
+    "longitude": 140.7568579355822,
     "website": "https://domaine-bless.com/",
     "brands": [
       "MUSUBI",
       "MIYABI"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-037",
@@ -554,14 +554,14 @@
     "name_en": "domaineyui",
     "address_ja": "北海道余市郡余市町登町812",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.17361223415576,
+    "longitude": 140.81790827791096,
     "website": "",
     "brands": [
       "A Rouge"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-038",
@@ -570,15 +570,15 @@
     "name_en": "Lan Seqqua",
     "address_ja": "北海道余市郡余市町登町612-2",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.17307335005119,
+    "longitude": 140.82912323373287,
     "website": "https://lanseqqua.jp/",
     "brands": [
       "早花咲月",
       "KOYACHI パストゥグラン"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-039",
@@ -587,14 +587,14 @@
     "name_en": "",
     "address_ja": "北海道余市郡余市町登町1064-1",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.168421863683115,
+    "longitude": 140.82105502023975,
     "website": "http://www.yamadado.jp/",
     "brands": [
       "Yoichi Rose Pinot Noir"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-040",
@@ -617,14 +617,14 @@
     "name_en": "LOWBROW CRAFT Local Independent Winery",
     "address_ja": "北海道余市郡余市町登町987-2",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.16643242394298,
+    "longitude": 140.82124088657585,
     "website": "http://lowbrowcraft.jp/",
     "brands": [
       "NIAGARA 2022"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-042",
@@ -650,15 +650,15 @@
     "name_en": "YOKA WINERY",
     "address_ja": "北海道余市郡余市町登町1828",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.159553719981304,
+    "longitude": 140.80143064907531,
     "website": "https://www.yoka-winery.com",
     "brands": [
       "余香シリーズ",
       "余珀シリーズ"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-045",
@@ -667,12 +667,12 @@
     "name_en": "",
     "address_ja": "北海道余市郡余市町登町1383-7",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.16398675814625,
+    "longitude": 140.81375460674658,
     "website": "",
     "brands": [],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-047",
@@ -695,12 +695,12 @@
     "name_en": "",
     "address_ja": "北海道余市郡余市町登町1117-2",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.17006665871831,
+    "longitude": 140.81524367791098,
     "website": "https://www.instagram.com/nitoriwinery/",
     "brands": [],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-049",
@@ -789,15 +789,15 @@
     "name_en": "",
     "address_ja": "北海道北斗市文月96-7",
     "address_en": "",
-    "latitude": 41.889999,
-    "longitude": 140.590073,
+    "latitude": 41.87519003468431,
+    "longitude": 140.6148200914041,
     "website": "http://www.nora-kura.jp/index.html",
     "brands": [
       "ノラシリーズ",
       "ノラポンシリーズ"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-058",
@@ -1006,14 +1006,14 @@
     "name_en": "Infeeld winery",
     "address_ja": "北海道北見市端野町緋牛内715-10",
     "address_en": "",
-    "latitude": 43.899517,
-    "longitude": 144.019012,
+    "latitude": 43.87837717008636,
+    "longitude": 144.0354715300343,
     "website": "https://miraifarm.co.jp/",
     "brands": [
       "樽熟成山幸"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-071",
