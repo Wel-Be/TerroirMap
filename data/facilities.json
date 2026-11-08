@@ -870,8 +870,8 @@
     "name_en": "",
     "address_ja": "北海道富良野市清水山",
     "address_en": "",
-    "latitude": 43.368725,
-    "longitude": 142.363251,
+    "latitude": 43.35871981631556,
+    "longitude": 142.37362861614824,
     "website": "http://www.furanowine.jp/",
     "brands": [
       "ふらのワイン 赤・白・ロゼ",
@@ -1291,8 +1291,8 @@
     "name_en": "",
     "address_ja": "熊本県山鹿市菊鹿町",
     "address_en": "",
-    "latitude": 33.053699,
-    "longitude": 130.786652,
+    "latitude": 33.0637105856901,
+    "longitude": 130.7677075096928,
     "website": "https://kumamotowinefarm.co.jp/",
     "brands": [
       "菊鹿メルロ樽熟成2024",
@@ -1572,6 +1572,889 @@
     "website": "https://yosakoi-winery.com/",
     "brands": [],
     "source_url": "https://yosakoi-winery.myshopify.com/pages/about_us",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-001",
+    "type": "winery",
+    "name_ja": "サンマモルワイナリー",
+    "name_en": "",
+    "address_ja": "青森県むつ市川内町川代1-6",
+    "address_en": "",
+    "latitude": 41.268681,
+    "longitude": 140.982651,
+    "website": "https://www.sunmamoru.com/",
+    "brands": [
+      "下北ワイン"
+    ],
+    "source_url": "https://www.nta.go.jp/about/organization/sendai/sake/sakagura/index.htm",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-002",
+    "type": "winery",
+    "name_ja": "つがるワイナリー",
+    "name_en": "",
+    "address_ja": "青森県北津軽郡鶴田町鶴田字小泉335-1",
+    "address_en": "",
+    "latitude": 40.753136,
+    "longitude": 140.439728,
+    "website": "https://www.tsugaru-winery.com/",
+    "brands": [],
+    "source_url": "https://www.nta.go.jp/about/organization/sendai/sake/sakagura/index.htm",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-003",
+    "type": "winery",
+    "name_ja": "はちのへワイナリー",
+    "name_en": "",
+    "address_ja": "青森県八戸市南郷大字中野字志民長根23-1",
+    "address_en": "",
+    "latitude": 40.403683,
+    "longitude": 141.410172,
+    "website": "http://www.h-winery.com/",
+    "brands": [
+      "八戸ワイン メルロー"
+    ],
+    "source_url": "https://www.nta.go.jp/about/organization/sendai/sake/sakagura/index.htm",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-004",
+    "type": "winery",
+    "name_ja": "ファットリア ダ・サスィーノ",
+    "name_en": "",
+    "address_ja": "青森県弘前市本町56-8",
+    "address_en": "",
+    "latitude": 40.600876,
+    "longitude": 140.467484,
+    "website": "https://dasasino.com/",
+    "brands": [],
+    "source_url": "https://www.nta.go.jp/about/organization/sendai/sake/sakagura/index.htm",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-005",
+    "type": "winery",
+    "name_ja": "タムラファーム",
+    "name_en": "",
+    "address_ja": "青森県弘前市青樹町18-28",
+    "address_en": "",
+    "latitude": 40.57885,
+    "longitude": 140.439743,
+    "website": "https://tamurafarm-aomori.com/",
+    "brands": [
+      "タムラシードル",
+      "青森アップルワイン"
+    ],
+    "source_url": "https://www.nta.go.jp/about/organization/sendai/sake/sakagura/index.htm",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-007",
+    "type": "winery",
+    "name_ja": "青森ワイナリーホテル",
+    "name_en": "",
+    "address_ja": "青森県南津軽郡大鰐町大字島田字滝ノ沢100-9",
+    "address_en": "",
+    "latitude": 40.493443,
+    "longitude": 140.573792,
+    "website": "https://www.a-wineryhotel.com/",
+    "brands": [
+      "津軽ワイン"
+    ],
+    "source_url": "https://www.nta.go.jp/about/organization/sendai/sake/sakagura/index.htm",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-010",
+    "type": "winery",
+    "name_ja": "エーデルワイン",
+    "name_en": "",
+    "address_ja": "岩手県花巻市大迫町大迫10-18-3",
+    "address_en": "",
+    "latitude": 39.472183,
+    "longitude": 141.285965,
+    "website": "https://edelwein.co.jp/",
+    "brands": [
+      "岩手の純情わいん",
+      "いわてヌーヴォー",
+      "月のセレナーデ"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-011",
+    "type": "winery",
+    "name_ja": "岩手くずまきワイン",
+    "name_en": "",
+    "address_ja": "岩手県岩手郡葛巻町江刈第1地割95-55",
+    "address_en": "",
+    "latitude": 39.978638,
+    "longitude": 141.509964,
+    "website": "https://kuzumakiwine.co.jp/",
+    "brands": [
+      "レアリティ"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-012",
+    "type": "winery",
+    "name_ja": "五枚橋ワイナリー",
+    "name_en": "",
+    "address_ja": "岩手県盛岡市門1-18-52",
+    "address_en": "",
+    "latitude": 39.66972,
+    "longitude": 141.16951,
+    "website": "https://www.gomaibashi.com/",
+    "brands": [
+      "林檎ワインふじ"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-014",
+    "type": "winery",
+    "name_ja": "高橋葡萄園",
+    "name_en": "",
+    "address_ja": "岩手県花巻市大迫町亀ヶ森第47地割4",
+    "address_en": "",
+    "latitude": 39.473103,
+    "longitude": 141.26738,
+    "website": "",
+    "brands": [
+      "五月長根"
+    ],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-015",
+    "type": "winery",
+    "name_ja": "神田葡萄園",
+    "name_en": "",
+    "address_ja": "岩手県陸前高田市米崎町字神田33",
+    "address_en": "",
+    "latitude": 39.013157,
+    "longitude": 141.659454,
+    "website": "https://riaswine.com/",
+    "brands": [
+      "リアスワイン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-016",
+    "type": "winery",
+    "name_ja": "亀ヶ森醸造所",
+    "name_en": "",
+    "address_ja": "岩手県花巻市大迫町亀ケ森19-7-1",
+    "address_en": "",
+    "latitude": 39.474514,
+    "longitude": 141.244629,
+    "website": "https://kamegamori.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-017",
+    "type": "winery",
+    "name_ja": "涼海の丘ワイナリー",
+    "name_en": "",
+    "address_ja": "岩手県九戸郡野田村大字玉川第5地割104-117",
+    "address_en": "",
+    "latitude": 40.052975,
+    "longitude": 141.815536,
+    "website": "https://winery.nodaeki.com/",
+    "brands": [
+      "紫雫"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-018",
+    "type": "winery",
+    "name_ja": "スリーピークスワイナリー",
+    "name_en": "THREE PEAKS",
+    "address_ja": "岩手県大船渡市大船渡町字茶屋前99",
+    "address_en": "",
+    "latitude": 39.06316,
+    "longitude": 141.723038,
+    "website": "https://3peaks.jp/",
+    "brands": [
+      "海街ワイン",
+      "乾杯シードル"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-021",
+    "type": "winery",
+    "name_ja": "平泉ワイナリー",
+    "name_en": "",
+    "address_ja": "岩手県西磐井郡平泉町長島字砂子沢172-6",
+    "address_en": "",
+    "latitude": 38.990173,
+    "longitude": 141.155792,
+    "website": "https://agri-hiraizumi.com/",
+    "brands": [
+      "平泉ワイン Ora"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-022",
+    "type": "winery",
+    "name_ja": "KOTOワイン盛岡",
+    "name_en": "",
+    "address_ja": "岩手県盛岡市乙部30-17-1",
+    "address_en": "",
+    "latitude": 39.608261,
+    "longitude": 141.195541,
+    "website": "https://koto-wine.com/",
+    "brands": [
+      "コト ペティアン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-024",
+    "type": "winery",
+    "name_ja": "大迫佐藤葡萄園",
+    "name_en": "",
+    "address_ja": "岩手県花巻市大迫町大迫第1地割4-51",
+    "address_en": "",
+    "latitude": 39.468273,
+    "longitude": 141.296875,
+    "website": "https://ohsmsatovineyard.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-025",
+    "type": "winery",
+    "name_ja": "秋保ワイナリー",
+    "name_en": "",
+    "address_ja": "宮城県仙台市太白区秋保町湯元枇杷原西6",
+    "address_en": "",
+    "latitude": 38.226585,
+    "longitude": 140.727875,
+    "website": "https://akiuwinery.co.jp/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-026",
+    "type": "winery",
+    "name_ja": "Fattoria AL FIORE",
+    "name_en": "Fattoria AL FIORE",
+    "address_ja": "宮城県柴田郡川崎町支倉塩沢9",
+    "address_en": "",
+    "latitude": 38.173466,
+    "longitude": 140.716614,
+    "website": "https://www.fattoriaalfiore.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-027",
+    "type": "winery",
+    "name_ja": "南三陸ワイナリー",
+    "name_en": "",
+    "address_ja": "宮城県本吉郡南三陸町志津川旭ケ浦7-3",
+    "address_en": "",
+    "latitude": 38.671734,
+    "longitude": 141.458008,
+    "website": "https://www.msr-wine.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-028",
+    "type": "winery",
+    "name_ja": "了美ヴィンヤード＆ワイナリー",
+    "name_en": "",
+    "address_ja": "宮城県黒川郡大和町吉田旦ノ原36-15",
+    "address_en": "",
+    "latitude": 38.457474,
+    "longitude": 140.747726,
+    "website": "https://ryomi-wine.jp/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-029",
+    "type": "winery",
+    "name_ja": "大﨑ワイナリー",
+    "name_en": "",
+    "address_ja": "宮城県大崎市古川台町3-15",
+    "address_en": "",
+    "latitude": 38.575508,
+    "longitude": 140.961472,
+    "website": "",
+    "brands": [
+      "大﨑ハーベスト",
+      "大﨑ブリュー",
+      "大﨑バンケット"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-031",
+    "type": "winery",
+    "name_ja": "モリウミアス ファーム＆ワイナリー",
+    "name_en": "",
+    "address_ja": "宮城県石巻市雄勝町桑浜字桑浜60",
+    "address_en": "",
+    "latitude": 38.493996,
+    "longitude": 141.532211,
+    "website": "https://moriumius.jp/",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-032",
+    "type": "winery",
+    "name_ja": "宮城縣七ヶ浜ワイナリー",
+    "name_en": "",
+    "address_ja": "宮城県宮城郡七ヶ浜町花渕浜字舘下117",
+    "address_en": "",
+    "latitude": 38.304707,
+    "longitude": 141.081284,
+    "website": "https://www.instagram.com/shichigahamawinery/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-034",
+    "type": "winery",
+    "name_ja": "あきた野ワイナリー",
+    "name_en": "",
+    "address_ja": "秋田県北秋田市米内沢字根小屋滝ノ沢55",
+    "address_en": "",
+    "latitude": 40.125259,
+    "longitude": 140.388428,
+    "website": "https://www.akitano-wgf.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-035",
+    "type": "winery",
+    "name_ja": "小坂七滝ワイナリー",
+    "name_en": "",
+    "address_ja": "秋田県鹿角郡小坂町上向字滝ノ下22",
+    "address_en": "",
+    "latitude": 40.336327,
+    "longitude": 140.776917,
+    "website": "https://kosaka-7falls-winery.com/",
+    "brands": [
+      "甲州オレンジ",
+      "ペガサスブラン",
+      "秋田犬ワイン"
+    ],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-036",
+    "type": "winery",
+    "name_ja": "天鷺ワイン",
+    "name_en": "",
+    "address_ja": "秋田県由利本荘市岩城下蛇田字高城2-1",
+    "address_en": "",
+    "latitude": 39.490463,
+    "longitude": 140.090424,
+    "website": "",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-037",
+    "type": "winery",
+    "name_ja": "ワイナリーこのはな",
+    "name_en": "",
+    "address_ja": "秋田県鹿角市花輪字下花輪2-1",
+    "address_en": "",
+    "latitude": 40.191425,
+    "longitude": 140.79126,
+    "website": "https://www.mkpaso.jp/",
+    "brands": [
+      "鴇"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-038",
+    "type": "winery",
+    "name_ja": "十和田ワイン醸造場",
+    "name_en": "",
+    "address_ja": "秋田県鹿角市花輪新田町37",
+    "address_en": "",
+    "latitude": 40.183117,
+    "longitude": 140.788635,
+    "website": "",
+    "brands": [
+      "十和田ワイン ドライ・マイルド",
+      "十和田アップルワイン紅玉"
+    ],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-040",
+    "type": "winery",
+    "name_ja": "高畠ワイナリー",
+    "name_en": "",
+    "address_ja": "山形県東置賜郡高畠町糠野目2700-1",
+    "address_en": "",
+    "latitude": 37.985176,
+    "longitude": 140.150452,
+    "website": "https://www.takahata-winery.jp/",
+    "brands": [
+      "嘉スパークリング"
+    ],
+    "source_url": "https://www.takahata-winery.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-041",
+    "type": "winery",
+    "name_ja": "酒井ワイナリー",
+    "name_en": "",
+    "address_ja": "山形県南陽市赤湯980",
+    "address_en": "",
+    "latitude": 38.050442,
+    "longitude": 140.168991,
+    "website": "http://www.sakai-winery.jp/",
+    "brands": [
+      "BIRDUP WINE"
+    ],
+    "source_url": "http://www.sakai-winery.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-042",
+    "type": "winery",
+    "name_ja": "紫金園 須藤ぶどう酒",
+    "name_en": "",
+    "address_ja": "山形県南陽市赤湯2836",
+    "address_en": "",
+    "latitude": 38.057613,
+    "longitude": 140.175369,
+    "website": "",
+    "brands": [
+      "南陽ワイン辛口",
+      "桜水ワイン"
+    ],
+    "source_url": "https://giyamagata-wine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-043",
+    "type": "winery",
+    "name_ja": "金渓ワイン 佐藤ぶどう酒",
+    "name_en": "",
+    "address_ja": "山形県南陽市赤湯1072-2",
+    "address_en": "",
+    "latitude": 38.050316,
+    "longitude": 140.169952,
+    "website": "http://www.kinkei.net/",
+    "brands": [
+      "金渓ワイン",
+      "友弥ノート"
+    ],
+    "source_url": "http://www.kinkei.net/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-044",
+    "type": "winery",
+    "name_ja": "グレープリパブリック",
+    "name_en": "",
+    "address_ja": "山形県南陽市新田3945-94",
+    "address_en": "",
+    "latitude": 38.074493,
+    "longitude": 140.188095,
+    "website": "https://grape-republic.com/",
+    "brands": [
+      "アランチョーネ",
+      "キュベ新田"
+    ],
+    "source_url": "https://grape-republic.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-045",
+    "type": "winery",
+    "name_ja": "YellowMagicWinery",
+    "name_en": "YellowMagicWinery",
+    "address_ja": "山形県南陽市赤湯871",
+    "address_en": "",
+    "latitude": 38.05035,
+    "longitude": 140.164337,
+    "website": "https://www.yellowmagicwinery.com/",
+    "brands": [
+      "OLD SCHOOL MERLOT"
+    ],
+    "source_url": "https://www.yellowmagicwinery.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-046",
+    "type": "winery",
+    "name_ja": "大浦葡萄酒",
+    "name_en": "",
+    "address_ja": "山形県南陽市赤湯312",
+    "address_en": "",
+    "latitude": 38.046944,
+    "longitude": 140.163345,
+    "website": "https://ourawine.com/",
+    "brands": [
+      "大浦葡萄酒",
+      "THE YAMAGATA デラウェア"
+    ],
+    "source_url": "https://ourawine.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-048",
+    "type": "winery",
+    "name_ja": "タケダワイナリー",
+    "name_en": "",
+    "address_ja": "山形県上山市四ツ谷2丁目6-1",
+    "address_en": "",
+    "latitude": 38.17218,
+    "longitude": 140.290802,
+    "website": "http://www.takeda-wine.co.jp/",
+    "brands": [
+      "TAKEDA WINERY"
+    ],
+    "source_url": "http://www.takeda-wine.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-049",
+    "type": "winery",
+    "name_ja": "天童ワイン",
+    "name_en": "",
+    "address_ja": "山形県天童市高擶南99",
+    "address_en": "",
+    "latitude": 38.33292,
+    "longitude": 140.339493,
+    "website": "https://www.tendowine.co.jp/",
+    "brands": [
+      "天童ワイン"
+    ],
+    "source_url": "https://www.tendowine.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-050",
+    "type": "winery",
+    "name_ja": "ドメーヌ ケロス",
+    "name_en": "",
+    "address_ja": "山形県天童市大字荒谷48",
+    "address_en": "",
+    "latitude": 38.318844,
+    "longitude": 140.386185,
+    "website": "https://www.kelos.co.jp/",
+    "brands": [
+      "NOM DE KELOS"
+    ],
+    "source_url": "https://www.kelos.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-051",
+    "type": "winery",
+    "name_ja": "ウッディファーム＆ワイナリー",
+    "name_en": "",
+    "address_ja": "山形県上山市原口829",
+    "address_en": "",
+    "latitude": 38.112358,
+    "longitude": 140.30957,
+    "website": "http://www.woodyfarm.com/",
+    "brands": [
+      "Woody・Rouge"
+    ],
+    "source_url": "http://www.woodyfarm.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-052",
+    "type": "winery",
+    "name_ja": "朝日町ワイン",
+    "name_en": "",
+    "address_ja": "山形県西村山郡朝日町大字大谷字高野1080",
+    "address_en": "",
+    "latitude": 38.34771,
+    "longitude": 140.157852,
+    "website": "http://www.asahimachi-wine.jp/",
+    "brands": [
+      "朝日町ワイン"
+    ],
+    "source_url": "http://www.asahimachi-wine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-053",
+    "type": "winery",
+    "name_ja": "ベルウッドヴィンヤードワイナリー",
+    "name_en": "",
+    "address_ja": "山形県上山市久保手字久保手4414-1",
+    "address_en": "",
+    "latitude": 38.177567,
+    "longitude": 140.271698,
+    "website": "https://bellwoodvineyard.com/",
+    "brands": [
+      "想い"
+    ],
+    "source_url": "https://bellwoodvineyard.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-054",
+    "type": "winery",
+    "name_ja": "フルーツワイナリー エスプリ",
+    "name_en": "",
+    "address_ja": "山形県天童市老野森1丁目15-20",
+    "address_en": "",
+    "latitude": 38.362694,
+    "longitude": 140.381546,
+    "website": "https://www.h-fruitwine.com/",
+    "brands": [],
+    "source_url": "https://www.h-fruitwine.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-055",
+    "type": "winery",
+    "name_ja": "フルーツ農園大泉",
+    "name_en": "OIZUMI VINES WINERY",
+    "address_ja": "山形県天童市大字乱川1322",
+    "address_en": "",
+    "latitude": 38.388355,
+    "longitude": 140.376892,
+    "website": "https://fruitfarmoizumi.com/",
+    "brands": [
+      "uccelli rosso"
+    ],
+    "source_url": "https://fruitfarmoizumi.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-056",
+    "type": "winery",
+    "name_ja": "DROP",
+    "name_en": "DROP",
+    "address_ja": "山形県上山市沢丁2-17",
+    "address_en": "",
+    "latitude": 38.155457,
+    "longitude": 140.274673,
+    "website": "",
+    "brands": [],
+    "source_url": "https://giyamagata-wine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-057",
+    "type": "winery",
+    "name_ja": "Voyage de YUUAI",
+    "name_en": "Voyage de YUUAI",
+    "address_ja": "山形県上山市三本松1010",
+    "address_en": "",
+    "latitude": 38.13599,
+    "longitude": 140.271927,
+    "website": "https://yuuai-kai.or.jp/wine",
+    "brands": [
+      "Vin de Ethical Niagara"
+    ],
+    "source_url": "https://yuuai-kai.or.jp/wine",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-059",
+    "type": "winery",
+    "name_ja": "Agri-Cœur",
+    "name_en": "Agri-Cœur",
+    "address_ja": "山形県上山市三上字屋敷浦476-1",
+    "address_en": "",
+    "latitude": 38.113079,
+    "longitude": 140.281998,
+    "website": "https://agricoeur.base.shop/",
+    "brands": [
+      "La joie de vivre"
+    ],
+    "source_url": "https://agricoeur.base.shop/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-060",
+    "type": "winery",
+    "name_ja": "月山ワイン山ぶどう研究所",
+    "name_en": "",
+    "address_ja": "山形県鶴岡市越中山字名平3-1",
+    "address_en": "",
+    "latitude": 38.604336,
+    "longitude": 139.85849,
+    "website": "https://gassan-wine.com/",
+    "brands": [
+      "月山ワイン"
+    ],
+    "source_url": "https://gassan-wine.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-064",
+    "type": "winery",
+    "name_ja": "いわきワイナリー",
+    "name_en": "",
+    "address_ja": "福島県いわき市好間町中好間字半貫沢34-72",
+    "address_en": "",
+    "latitude": 37.055374,
+    "longitude": 140.840164,
+    "website": "http://iwakiwinery.com/",
+    "brands": [],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-065",
+    "type": "winery",
+    "name_ja": "ふくしま逢瀬ワイナリー",
+    "name_en": "",
+    "address_ja": "福島県郡山市逢瀬町多田野字郷士2",
+    "address_en": "",
+    "latitude": 37.40744,
+    "longitude": 140.228683,
+    "website": "https://ousewinery.jp/",
+    "brands": [],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-066",
+    "type": "winery",
+    "name_ja": "ふくしま農家の夢ワイン",
+    "name_en": "",
+    "address_ja": "福島県二本松市木幡字白石181-1",
+    "address_en": "",
+    "latitude": 37.622131,
+    "longitude": 140.551407,
+    "website": "https://ja-jp.facebook.com/fukuyumewine/",
+    "brands": [
+      "ふくゆめワイン"
+    ],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-068",
+    "type": "winery",
+    "name_ja": "吾妻山麓醸造所",
+    "name_en": "",
+    "address_ja": "福島県福島市桜本字梨子沢4-2",
+    "address_en": "",
+    "latitude": 37.743401,
+    "longitude": 140.357635,
+    "website": "https://azumasanroku-winery.co.jp/",
+    "brands": [],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-069",
+    "type": "winery",
+    "name_ja": "新鶴ワイナリー",
+    "name_en": "",
+    "address_ja": "福島県大沼郡会津美里町鶴野辺字下長尾2398",
+    "address_en": "",
+    "latitude": 37.503189,
+    "longitude": 139.834732,
+    "website": "https://aizucoshell.co.jp/",
+    "brands": [],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-070",
+    "type": "winery",
+    "name_ja": "WINERY JUN",
+    "name_en": "WINERY JUN",
+    "address_ja": "福島県喜多方市関柴町西勝字井戸尻48-1",
+    "address_en": "",
+    "latitude": 37.633839,
+    "longitude": 139.889618,
+    "website": "https://i-products.co.jp/",
+    "brands": [
+      "葡萄夢"
+    ],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-071",
+    "type": "winery",
+    "name_ja": "とみおかワイナリー",
+    "name_en": "",
+    "address_ja": "福島県双葉郡富岡町小浜反町36-1",
+    "address_en": "",
+    "latitude": 37.339806,
+    "longitude": 141.02124,
+    "website": "https://tomioka-winery.jp/",
+    "brands": [],
+    "source_url": "https://f-wine.org/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-072",
+    "type": "winery",
+    "name_ja": "ワイン工房あいづ",
+    "name_en": "Honda Winery",
+    "address_ja": "福島県耶麻郡猪苗代町大字千代田字千代田3-7",
+    "address_en": "",
+    "latitude": 37.548855,
+    "longitude": 140.105682,
+    "website": "https://www.hondawinery.co.jp/",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-thk-074",
+    "type": "winery",
+    "name_ja": "Maison AKI",
+    "name_en": "Maison AKI",
+    "address_ja": "福島県郡山市熱海町熱海2-117",
+    "address_en": "",
+    "latitude": 37.481342,
+    "longitude": 140.275955,
+    "website": "",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
     "location_accuracy": "approximate_area"
   }
 ]
