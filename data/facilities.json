@@ -633,15 +633,15 @@
     "name_en": "DOMAINE HARBIOSE",
     "address_ja": "北海道余市郡仁木町旭台306",
     "address_en": "",
-    "latitude": 43.159164,
-    "longitude": 140.744934,
+    "latitude": 43.163322375337025,
+    "longitude": 140.76059774722606,
     "website": "https://winery.yoichidreams.com/index.html",
     "brands": [
       "BONBORI",
       "TAMAYUKI"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-043",
@@ -723,12 +723,12 @@
     "name_en": "Domaine Mont",
     "address_ja": "北海道余市郡余市町登町898",
     "address_en": "",
-    "latitude": 43.14975,
-    "longitude": 140.825165,
+    "latitude": 43.170916806801145,
+    "longitude": 140.82879653558226,
     "website": "https://domainemont.com/",
     "brands": [],
     "source_url": "https://domainemont.com/",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-054",
@@ -825,12 +825,12 @@
     "name_en": "Due Punti Vineyards",
     "address_ja": "北海道北斗市文月189-1",
     "address_en": "",
-    "latitude": 41.889999,
-    "longitude": 140.590073,
+    "latitude": 41.874300359633764,
+    "longitude": 140.61616551839043,
     "website": "https://www.due-punti-vineyards.com/",
     "brands": [],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-060",
@@ -1054,14 +1054,14 @@
     "name_en": "",
     "address_ja": "北海道北見市端野町緋牛内793-1",
     "address_en": "",
-    "latitude": 43.899517,
-    "longitude": 144.019012,
+    "latitude": 43.88342628884445,
+    "longitude": 144.04397320674656,
     "website": "",
     "brands": [
       "桜夢雫"
     ],
     "source_url": "https://www.pref.hokkaido.lg.jp/kz/sss/wineindustry.html",
-    "location_accuracy": "approximate_area"
+    "location_accuracy": "exact"
   },
   {
     "id": "W-hkd-074",
@@ -2454,6 +2454,386 @@
     "longitude": 140.275955,
     "website": "",
     "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-001",
+    "type": "winery",
+    "name_ja": "北条ワイン醸造所",
+    "name_en": "",
+    "address_ja": "鳥取県東伯郡北栄町松神608",
+    "address_en": "",
+    "latitude": 35.486042,
+    "longitude": 133.795319,
+    "website": "http://www.hojyowine.jp/",
+    "brands": [
+      "北条ワイン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-002",
+    "type": "winery",
+    "name_ja": "兎ッ兎ワイナリー",
+    "name_en": "",
+    "address_ja": "鳥取県鳥取市国府町麻生178-11",
+    "address_en": "",
+    "latitude": 35.466782,
+    "longitude": 134.288239,
+    "website": "https://www.tottowinery.com/",
+    "brands": [],
+    "source_url": "https://www.tottowinery.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-003",
+    "type": "winery",
+    "name_ja": "倉吉ワイナリー",
+    "name_en": "",
+    "address_ja": "鳥取県倉吉市西仲町2627",
+    "address_en": "",
+    "latitude": 35.432072,
+    "longitude": 133.822388,
+    "website": "https://www.kurayoshi-winery.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-004",
+    "type": "winery",
+    "name_ja": "大山ワイナリー",
+    "name_en": "",
+    "address_ja": "鳥取県西伯郡伯耆町真野169-4",
+    "address_en": "",
+    "latitude": 35.375034,
+    "longitude": 133.456314,
+    "website": "http://daisenwinery.com/",
+    "brands": [
+      "大山さんいんワイン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-005",
+    "type": "winery",
+    "name_ja": "島根ワイナリー",
+    "name_en": "",
+    "address_ja": "島根県出雲市大社町菱根264-2",
+    "address_en": "",
+    "latitude": 35.395527,
+    "longitude": 132.711395,
+    "website": "https://www.shimane-winery.jp/",
+    "brands": [
+      "島根わいん",
+      "シャトー弥山"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-006",
+    "type": "winery",
+    "name_ja": "石見ワイナリー",
+    "name_en": "",
+    "address_ja": "島根県大田市三瓶町志学1640-2",
+    "address_en": "",
+    "latitude": 35.115124,
+    "longitude": 132.627792,
+    "website": "https://iwami.wine/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-007",
+    "type": "winery",
+    "name_ja": "奥出雲葡萄園",
+    "name_en": "",
+    "address_ja": "島根県雲南市木次町寺領2273-1",
+    "address_en": "",
+    "latitude": 35.273579,
+    "longitude": 132.936539,
+    "website": "https://okuizumo.com/",
+    "brands": [
+      "奥出雲ワイン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-008",
+    "type": "winery",
+    "name_ja": "サッポロワイン岡山ワイナリー",
+    "name_en": "",
+    "address_ja": "岡山県赤磐市東軽部1556",
+    "address_en": "",
+    "latitude": 34.802986,
+    "longitude": 134.027771,
+    "website": "https://www.sapporobeer.jp/brewery/okayama/",
+    "brands": [
+      "グランポレール"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-010",
+    "type": "winery",
+    "name_ja": "ふなおワイナリー",
+    "name_en": "",
+    "address_ja": "岡山県倉敷市船穂町水江611-2",
+    "address_en": "",
+    "latitude": 34.602173,
+    "longitude": 133.720795,
+    "website": "http://www.funaowinery.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-011",
+    "type": "winery",
+    "name_ja": "グレープシップ",
+    "name_en": "GRAPE SHIP",
+    "address_ja": "岡山県倉敷市船穂町船穂7153-1",
+    "address_en": "",
+    "latitude": 34.58176,
+    "longitude": 133.702103,
+    "website": "https://www.grapeship.jp/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-012",
+    "type": "winery",
+    "name_ja": "ドメーヌテッタ",
+    "name_en": "domaine tetta",
+    "address_ja": "岡山県新見市哲多町矢戸3136",
+    "address_en": "",
+    "latitude": 34.890308,
+    "longitude": 133.446228,
+    "website": "https://tetta.jp/",
+    "brands": [
+      "カデンヤ",
+      "ラ・ボルデーゼ"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-013",
+    "type": "winery",
+    "name_ja": "岡山ワインバレー 荒戸山ワイナリー",
+    "name_en": "",
+    "address_ja": "岡山県新見市哲多町田淵72",
+    "address_en": "",
+    "latitude": 34.928272,
+    "longitude": 133.38208,
+    "website": "https://okayamawine.jp/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-014",
+    "type": "winery",
+    "name_ja": "kibi VALLEY",
+    "name_en": "kibi VALLEY",
+    "address_ja": "岡山県加賀郡吉備中央町吉川3340-285",
+    "address_en": "",
+    "latitude": 34.825336,
+    "longitude": 133.732147,
+    "website": "https://kibifoods.umc-net.co.jp/",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-015",
+    "type": "winery",
+    "name_ja": "コルトラーダ",
+    "name_en": "COLTRADA",
+    "address_ja": "岡山県新見市哲多町花木3187",
+    "address_en": "",
+    "latitude": 34.935825,
+    "longitude": 133.471527,
+    "website": "https://shop.coltrada.com/",
+    "brands": [
+      "COLTRADA Rouge.1",
+      "コルトラーダ・ブラン"
+    ],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-016",
+    "type": "winery",
+    "name_ja": "黒髪山葡萄園",
+    "name_en": "",
+    "address_ja": "岡山県新見市新見1490-9",
+    "address_en": "",
+    "latitude": 34.979553,
+    "longitude": 133.476151,
+    "website": "http://www.kurokamiyama.sakura.ne.jp/",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-017",
+    "type": "winery",
+    "name_ja": "ひるぜんワイン",
+    "name_en": "",
+    "address_ja": "岡山県真庭市蒜山上福田1205-32",
+    "address_en": "",
+    "latitude": 35.309883,
+    "longitude": 133.626846,
+    "website": "https://hiruzenwine.com/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-018",
+    "type": "winery",
+    "name_ja": "広島三次ワイナリー",
+    "name_en": "",
+    "address_ja": "広島県三次市東酒屋町10445-3",
+    "address_en": "",
+    "latitude": 34.774929,
+    "longitude": 132.866745,
+    "website": "https://www.miyoshi-winery.co.jp/",
+    "brands": [
+      "SOH-SHU 高木 シャルドネ"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-019",
+    "type": "winery",
+    "name_ja": "せらワイナリー",
+    "name_en": "",
+    "address_ja": "広島県世羅郡世羅町黒渕518-1",
+    "address_en": "",
+    "latitude": 34.621483,
+    "longitude": 132.976151,
+    "website": "https://www.serawinery.jp/",
+    "brands": [
+      "せらワイン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-020",
+    "type": "winery",
+    "name_ja": "山野峡大田ワイナリー",
+    "name_en": "",
+    "address_ja": "広島県福山市山野町山野862-5",
+    "address_en": "",
+    "latitude": 34.665001,
+    "longitude": 133.370499,
+    "website": "https://yamano-wine.com/",
+    "brands": [
+      "山野峡ワイン"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-021",
+    "type": "winery",
+    "name_ja": "福山わいん工房",
+    "name_en": "",
+    "address_ja": "広島県福山市伏見町3-27",
+    "address_en": "",
+    "latitude": 34.488674,
+    "longitude": 133.363998,
+    "website": "https://enivrant.co.jp/vindefukuyama/",
+    "brands": [],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-022",
+    "type": "winery",
+    "name_ja": "福光葡萄酒醸造所",
+    "name_en": "",
+    "address_ja": "広島県山県郡北広島町大朝2441-1",
+    "address_en": "",
+    "latitude": 34.775841,
+    "longitude": 132.462433,
+    "website": "https://www.asahikari.info/",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-023",
+    "type": "winery",
+    "name_ja": "ホッコーわいなりー",
+    "name_en": "",
+    "address_ja": "広島県山県郡北広島町宮迫389-4",
+    "address_en": "",
+    "latitude": 34.780453,
+    "longitude": 132.504532,
+    "website": "https://www.hokkoh-farm.jp/",
+    "brands": [
+      "山紫野",
+      "山霧路"
+    ],
+    "source_url": "https://www.winery.or.jp/winery-map/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-024",
+    "type": "winery",
+    "name_ja": "ヴィノーブルヴィンヤード",
+    "name_en": "Vinoble Vineyard & Winery",
+    "address_ja": "広島県三次市七次町1371",
+    "address_en": "",
+    "latitude": 34.805538,
+    "longitude": 132.85173,
+    "website": "https://vinoble-vineyard.jp/",
+    "brands": [
+      "VINOBLE SIGNATURE シリーズ"
+    ],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-025",
+    "type": "winery",
+    "name_ja": "瀬戸内醸造所",
+    "name_en": "",
+    "address_ja": "広島県三原市須波西1-5-26",
+    "address_en": "",
+    "latitude": 34.356689,
+    "longitude": 133.082321,
+    "website": "https://setouchijozojo.jp/",
+    "brands": [],
+    "source_url": "https://nihon.wine/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-chg-026",
+    "type": "winery",
+    "name_ja": "山口ワイナリー",
+    "name_en": "",
+    "address_ja": "山口県山陽小野田市大字厚狭石束1985",
+    "address_en": "",
+    "latitude": 34.053097,
+    "longitude": 131.164917,
+    "website": "https://www.yamanosake.com/products/list.php?category_id=6",
+    "brands": [
+      "山口ワイン"
+    ],
     "source_url": "https://www.winery.or.jp/winery-map/",
     "location_accuracy": "approximate_area"
   }
