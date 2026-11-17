@@ -3662,5 +3662,1413 @@
     ],
     "source_url": "https://six-three-estate.jp/",
     "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-001",
+    "type": "sake",
+    "name_ja": "碓氷勝三郎商店",
+    "name_en": "",
+    "address_ja": "北海道根室市常盤町1丁目6",
+    "address_en": "",
+    "latitude": 43.331009,
+    "longitude": 145.580813,
+    "website": "https://www.kitanokatsu.jp/",
+    "brands": [
+      "北の勝"
+    ],
+    "source_url": "https://www.kitanokatsu.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-002",
+    "type": "sake",
+    "name_ja": "男山",
+    "name_en": "",
+    "address_ja": "北海道旭川市永山2条7丁目1-33",
+    "address_en": "",
+    "latitude": 43.796168,
+    "longitude": 142.409426,
+    "website": "https://www.otokoyama.com/",
+    "brands": [
+      "男山"
+    ],
+    "source_url": "https://www.otokoyama.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-003",
+    "type": "sake",
+    "name_ja": "上川大雪酒造",
+    "name_en": "",
+    "address_ja": "北海道上川郡上川町旭町25-1",
+    "address_en": "",
+    "latitude": 43.842445,
+    "longitude": 142.777184,
+    "website": "https://kamikawa-taisetsu.co.jp/",
+    "brands": [
+      "上川大雪"
+    ],
+    "source_url": "https://kamikawa-taisetsu.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-004",
+    "type": "sake",
+    "name_ja": "金滴酒造",
+    "name_en": "",
+    "address_ja": "北海道樺戸郡新十津川町字中央71-7",
+    "address_en": "",
+    "latitude": 43.559366,
+    "longitude": 141.881707,
+    "website": "https://www.kinteki.co.jp/",
+    "brands": [
+      "金滴"
+    ],
+    "source_url": "https://www.kinteki.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-005",
+    "type": "sake",
+    "name_ja": "国稀酒造",
+    "name_en": "",
+    "address_ja": "北海道増毛郡増毛町稲葉町1丁目17",
+    "address_en": "",
+    "latitude": 43.858227,
+    "longitude": 141.52287,
+    "website": "https://www.kunimare.co.jp/",
+    "brands": [
+      "国稀"
+    ],
+    "source_url": "https://www.kunimare.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-006",
+    "type": "sake",
+    "name_ja": "小林酒造",
+    "name_en": "",
+    "address_ja": "北海道夕張郡栗山町錦3丁目109",
+    "address_en": "",
+    "latitude": 43.061188,
+    "longitude": 141.769727,
+    "website": "http://www.kitanonishiki.com/",
+    "brands": [
+      "北の錦"
+    ],
+    "source_url": "http://www.kitanonishiki.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-007",
+    "type": "sake",
+    "name_ja": "合同酒精",
+    "name_en": "",
+    "address_ja": "北海道旭川市南四条通20丁目1955",
+    "address_en": "",
+    "latitude": 43.754359,
+    "longitude": 142.374608,
+    "website": "https://www.oenon.jp/",
+    "brands": [
+      "大雪乃蔵"
+    ],
+    "source_url": "https://www.oenon.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-008",
+    "type": "sake",
+    "name_ja": "髙砂酒造",
+    "name_en": "",
+    "address_ja": "北海道旭川市宮下通17丁目右1号",
+    "address_en": "",
+    "latitude": 43.760706,
+    "longitude": 142.37293,
+    "website": "https://www.takasagoshuzo.com/",
+    "brands": [
+      "国士無双"
+    ],
+    "source_url": "https://www.takasagoshuzo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-009",
+    "type": "sake",
+    "name_ja": "田中酒造",
+    "name_en": "",
+    "address_ja": "北海道小樽市色内3丁目2-5",
+    "address_en": "",
+    "latitude": 43.203446,
+    "longitude": 140.998499,
+    "website": "https://tanakashuzo.com/",
+    "brands": [
+      "宝川"
+    ],
+    "source_url": "https://tanakashuzo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-010",
+    "type": "sake",
+    "name_ja": "二世古酒造",
+    "name_en": "",
+    "address_ja": "北海道虻田郡倶知安町字旭47",
+    "address_en": "",
+    "latitude": 42.905078,
+    "longitude": 140.741096,
+    "website": "https://niseko-shuzo.com/",
+    "brands": [
+      "二世古"
+    ],
+    "source_url": "https://niseko-shuzo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-011",
+    "type": "sake",
+    "name_ja": "日本清酒",
+    "name_en": "",
+    "address_ja": "北海道札幌市中央区南3条東5丁目2",
+    "address_en": "",
+    "latitude": 43.059091,
+    "longitude": 141.364571,
+    "website": "https://nipponseishu.co.jp/",
+    "brands": [
+      "千歳鶴"
+    ],
+    "source_url": "https://nipponseishu.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-012",
+    "type": "sake",
+    "name_ja": "箱館醸蔵",
+    "name_en": "",
+    "address_ja": "北海道亀田郡七飯町大中山1丁目2-3",
+    "address_en": "",
+    "latitude": 41.864479,
+    "longitude": 140.71386,
+    "website": "https://www.gohhou.jp/",
+    "brands": [
+      "郷宝"
+    ],
+    "source_url": "https://www.gohhou.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-013",
+    "type": "sake",
+    "name_ja": "福司酒造",
+    "name_en": "",
+    "address_ja": "北海道釧路市住吉2丁目13-23",
+    "address_en": "",
+    "latitude": 42.978405,
+    "longitude": 144.395949,
+    "website": "https://www.fukutsukasa.jp/",
+    "brands": [
+      "福司"
+    ],
+    "source_url": "https://www.fukutsukasa.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-014",
+    "type": "sake",
+    "name_ja": "三千櫻酒造",
+    "name_en": "",
+    "address_ja": "北海道上川郡東川町西2号北23",
+    "address_en": "",
+    "latitude": 43.706852,
+    "longitude": 142.53434,
+    "website": "https://michizakura.jp/",
+    "brands": [
+      "三千櫻"
+    ],
+    "source_url": "https://michizakura.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-hkd-015",
+    "type": "sake",
+    "name_ja": "森ノ醸造所",
+    "name_en": "",
+    "address_ja": "北海道磯谷郡蘭越町吉国7-8",
+    "address_en": "",
+    "latitude": 42.834841,
+    "longitude": 140.494736,
+    "website": "https://morino-brewery.jp/",
+    "brands": [
+      "UPAS"
+    ],
+    "source_url": "https://morino-brewery.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-001",
+    "type": "sake",
+    "name_ja": "綾菊酒造",
+    "name_en": "",
+    "address_ja": "香川県綾歌郡綾川町山田下3393-1",
+    "address_en": "",
+    "latitude": 34.222191,
+    "longitude": 133.947504,
+    "website": "https://www.ayakiku.com/",
+    "brands": [
+      "綾菊"
+    ],
+    "source_url": "https://www.ayakiku.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-002",
+    "type": "sake",
+    "name_ja": "川鶴酒造",
+    "name_en": "",
+    "address_ja": "香川県観音寺市本大町836",
+    "address_en": "",
+    "latitude": 34.127075,
+    "longitude": 133.708339,
+    "website": "https://kawatsuru.com/",
+    "brands": [
+      "川鶴"
+    ],
+    "source_url": "https://kawatsuru.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-003",
+    "type": "sake",
+    "name_ja": "小豆島酒造",
+    "name_en": "",
+    "address_ja": "香川県小豆郡小豆島町馬木甲1010-1",
+    "address_en": "",
+    "latitude": 34.472299,
+    "longitude": 134.319241,
+    "website": "https://www.morikuni.jp/",
+    "brands": [
+      "森"
+    ],
+    "source_url": "https://www.morikuni.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-004",
+    "type": "sake",
+    "name_ja": "西野金陵",
+    "name_en": "",
+    "address_ja": "香川県仲多度郡琴平町623",
+    "address_en": "",
+    "latitude": 34.187578,
+    "longitude": 133.818959,
+    "website": "https://www.nishino-kinryo.co.jp/",
+    "brands": [
+      "金陵"
+    ],
+    "source_url": "https://www.nishino-kinryo.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-006",
+    "type": "sake",
+    "name_ja": "勇心酒造",
+    "name_en": "",
+    "address_ja": "香川県綾歌郡綾川町小野2088-1",
+    "address_en": "",
+    "latitude": 34.244848,
+    "longitude": 133.904304,
+    "website": "https://www.yushin-brewer.com/",
+    "brands": [
+      "勇心"
+    ],
+    "source_url": "https://www.yushin-brewer.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-009",
+    "type": "sake",
+    "name_ja": "齋藤酒造場",
+    "name_en": "",
+    "address_ja": "徳島県徳島市佐古七番町7-1",
+    "address_en": "",
+    "latitude": 34.078571,
+    "longitude": 134.523927,
+    "website": "https://www.gotensakura.com/",
+    "brands": [
+      "御殿桜"
+    ],
+    "source_url": "https://www.gotensakura.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-011",
+    "type": "sake",
+    "name_ja": "勢玉",
+    "name_en": "",
+    "address_ja": "徳島県徳島市福島1-4-9",
+    "address_en": "",
+    "latitude": 34.072014,
+    "longitude": 134.563309,
+    "website": "http://seigyokushuzo-sakagura.co.jp/",
+    "brands": [
+      "勢玉"
+    ],
+    "source_url": "http://seigyokushuzo-sakagura.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-012",
+    "type": "sake",
+    "name_ja": "司菊酒造",
+    "name_en": "",
+    "address_ja": "徳島県美馬市美馬町妙見93",
+    "address_en": "",
+    "latitude": 34.047837,
+    "longitude": 134.054614,
+    "website": "https://www.tsukasagiku.co.jp/",
+    "brands": [
+      "きらい"
+    ],
+    "source_url": "https://www.tsukasagiku.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-013",
+    "type": "sake",
+    "name_ja": "津乃峰酒造",
+    "name_en": "",
+    "address_ja": "徳島県阿南市長生町諏訪ノ端11",
+    "address_en": "",
+    "latitude": 33.906997,
+    "longitude": 134.61759,
+    "website": "http://www.tsunomine.com/",
+    "brands": [
+      "津乃峰"
+    ],
+    "source_url": "http://www.tsunomine.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-014",
+    "type": "sake",
+    "name_ja": "那賀酒造",
+    "name_en": "",
+    "address_ja": "徳島県那賀郡那賀町和食字町35",
+    "address_en": "",
+    "latitude": 33.858427,
+    "longitude": 134.498499,
+    "website": "http://wwwd.pikara.ne.jp/asahiwakamatu/index.html",
+    "brands": [
+      "旭若松"
+    ],
+    "source_url": "http://wwwd.pikara.ne.jp/asahiwakamatu/index.html",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-015",
+    "type": "sake",
+    "name_ja": "中和商店",
+    "name_en": "",
+    "address_ja": "徳島県三好市池田町サラダ1756-2",
+    "address_en": "",
+    "latitude": 34.028108,
+    "longitude": 133.810155,
+    "website": "https://www.imakomachi.com/",
+    "brands": [
+      "今小町"
+    ],
+    "source_url": "https://www.imakomachi.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-016",
+    "type": "sake",
+    "name_ja": "日新酒類",
+    "name_en": "",
+    "address_ja": "徳島県阿波市土成町郡176",
+    "address_en": "",
+    "latitude": 34.098867,
+    "longitude": 134.331687,
+    "website": "https://www.nissin-shurui.co.jp/",
+    "brands": [
+      "瓢太閤"
+    ],
+    "source_url": "https://www.nissin-shurui.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-017",
+    "type": "sake",
+    "name_ja": "芳水酒造",
+    "name_en": "",
+    "address_ja": "徳島県三好市井川町辻231-2",
+    "address_en": "",
+    "latitude": 34.029986,
+    "longitude": 133.882733,
+    "website": "https://housui.com/",
+    "brands": [
+      "芳水"
+    ],
+    "source_url": "https://housui.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-018",
+    "type": "sake",
+    "name_ja": "本家松浦酒造場",
+    "name_en": "",
+    "address_ja": "徳島県鳴門市大麻町池谷字柳の本19",
+    "address_en": "",
+    "latitude": 34.158669,
+    "longitude": 134.537532,
+    "website": "https://narutotai.jp/",
+    "brands": [
+      "鳴門鯛"
+    ],
+    "source_url": "https://narutotai.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-019",
+    "type": "sake",
+    "name_ja": "三芳菊酒造",
+    "name_en": "",
+    "address_ja": "徳島県三好市池田町サラダ1754",
+    "address_en": "",
+    "latitude": 34.027833,
+    "longitude": 133.810121,
+    "website": "https://www.miyoshikikushuzo.com/",
+    "brands": [
+      "三芳菊"
+    ],
+    "source_url": "https://www.miyoshikikushuzo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-022",
+    "type": "sake",
+    "name_ja": "吉本醸造",
+    "name_en": "",
+    "address_ja": "徳島県徳島市鮎喰町1-125",
+    "address_en": "",
+    "latitude": 34.073957,
+    "longitude": 134.503438,
+    "website": "http://awa-yoshimoto.com/",
+    "brands": [
+      "眉山"
+    ],
+    "source_url": "http://awa-yoshimoto.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-024",
+    "type": "sake",
+    "name_ja": "石鎚酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西条市氷見丙402-3",
+    "address_en": "",
+    "latitude": 33.891193,
+    "longitude": 133.130878,
+    "website": "https://www.ishizuchi.co.jp/",
+    "brands": [
+      "石鎚"
+    ],
+    "source_url": "https://www.ishizuchi.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-026",
+    "type": "sake",
+    "name_ja": "宇都宮酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西予市宇和町卯之町4-254-1",
+    "address_en": "",
+    "latitude": 33.360996,
+    "longitude": 132.519201,
+    "website": "https://uwanosake.com/",
+    "brands": [
+      "千鳥"
+    ],
+    "source_url": "https://uwanosake.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-027",
+    "type": "sake",
+    "name_ja": "梅錦山川",
+    "name_en": "",
+    "address_ja": "愛媛県四国中央市金田町金川14",
+    "address_en": "",
+    "latitude": 33.98919,
+    "longitude": 133.593986,
+    "website": "https://www.umenishiki.com/",
+    "brands": [
+      "梅錦"
+    ],
+    "source_url": "https://www.umenishiki.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-028",
+    "type": "sake",
+    "name_ja": "梅美人酒造",
+    "name_en": "",
+    "address_ja": "愛媛県八幡浜市幸町1557-2",
+    "address_en": "",
+    "latitude": 33.465139,
+    "longitude": 132.425969,
+    "website": "https://umebijin.com/",
+    "brands": [
+      "梅美人"
+    ],
+    "source_url": "https://umebijin.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-029",
+    "type": "sake",
+    "name_ja": "栄光酒造",
+    "name_en": "",
+    "address_ja": "愛媛県松山市溝辺町甲443",
+    "address_en": "",
+    "latitude": 33.852121,
+    "longitude": 132.807827,
+    "website": "https://eikoo.com/",
+    "brands": [
+      "酒仙栄光"
+    ],
+    "source_url": "https://eikoo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-030",
+    "type": "sake",
+    "name_ja": "かち鶴酒造",
+    "name_en": "",
+    "address_ja": "愛媛県伊予郡砥部町宮内542",
+    "address_en": "",
+    "latitude": 33.753892,
+    "longitude": 132.787623,
+    "website": "http://www.kachizuru.com/",
+    "brands": [
+      "かち鶴"
+    ],
+    "source_url": "http://www.kachizuru.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-032",
+    "type": "sake",
+    "name_ja": "協和酒造",
+    "name_en": "",
+    "address_ja": "愛媛県伊予郡砥部町大南400",
+    "address_en": "",
+    "latitude": 33.738566,
+    "longitude": 132.791716,
+    "website": "https://hatsuyukihai.jp/",
+    "brands": [
+      "初雪盃"
+    ],
+    "source_url": "https://hatsuyukihai.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-035",
+    "type": "sake",
+    "name_ja": "近藤酒造",
+    "name_en": "",
+    "address_ja": "愛媛県新居浜市新須賀町1-11-46",
+    "address_en": "",
+    "latitude": 33.966647,
+    "longitude": 133.28827,
+    "website": "https://kondousyuzou.com/",
+    "brands": [
+      "華姫桜"
+    ],
+    "source_url": "https://kondousyuzou.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-036",
+    "type": "sake",
+    "name_ja": "最進酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西予市宇和町卯之町4-332",
+    "address_en": "",
+    "latitude": 33.362678,
+    "longitude": 132.515304,
+    "website": "https://www.uwaikedaya.com/",
+    "brands": [
+      "玉川"
+    ],
+    "source_url": "https://www.uwaikedaya.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-037",
+    "type": "sake",
+    "name_ja": "酒六酒造",
+    "name_en": "",
+    "address_ja": "愛媛県喜多郡内子町内子3279-1",
+    "address_en": "",
+    "latitude": 33.553854,
+    "longitude": 132.648746,
+    "website": "https://sakaroku-syuzo.co.jp",
+    "brands": [
+      "京ひな"
+    ],
+    "source_url": "https://sakaroku-syuzo.co.jp",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-038",
+    "type": "sake",
+    "name_ja": "桜うづまき酒造",
+    "name_en": "",
+    "address_ja": "愛媛県松山市八反地甲71",
+    "address_en": "",
+    "latitude": 33.972048,
+    "longitude": 132.792566,
+    "website": "https://sakurauzumaki.com/",
+    "brands": [
+      "桜うづまき"
+    ],
+    "source_url": "https://sakurauzumaki.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-040",
+    "type": "sake",
+    "name_ja": "島田酒造",
+    "name_en": "",
+    "address_ja": "愛媛県東温市志津川1445",
+    "address_en": "",
+    "latitude": 33.80518,
+    "longitude": 132.873688,
+    "website": "https://nihonsyu-kofuji.sakura.ne.jp/",
+    "brands": [
+      "小冨士"
+    ],
+    "source_url": "https://nihonsyu-kofuji.sakura.ne.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-041",
+    "type": "sake",
+    "name_ja": "首藤酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西条市小松町大頭甲312-2",
+    "address_en": "",
+    "latitude": 33.882587,
+    "longitude": 133.07791,
+    "website": "https://sukigokoro.co.jp/",
+    "brands": [
+      "寿喜心"
+    ],
+    "source_url": "https://sukigokoro.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-042",
+    "type": "sake",
+    "name_ja": "成龍酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西条市周布1301-1",
+    "address_en": "",
+    "latitude": 33.913125,
+    "longitude": 133.07848,
+    "website": "https://seiryosyuzo.com/",
+    "brands": [
+      "伊予賀儀屋"
+    ],
+    "source_url": "https://seiryosyuzo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-043",
+    "type": "sake",
+    "name_ja": "武田酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西条市三芳1507",
+    "address_en": "",
+    "latitude": 33.949309,
+    "longitude": 133.058291,
+    "website": "https://yamatogokoro.co.jp/",
+    "brands": [
+      "日本心"
+    ],
+    "source_url": "https://yamatogokoro.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-045",
+    "type": "sake",
+    "name_ja": "千代の亀酒造",
+    "name_en": "",
+    "address_ja": "愛媛県喜多郡内子町平岡甲1294-1",
+    "address_en": "",
+    "latitude": 33.538862,
+    "longitude": 132.658788,
+    "website": "https://www.chiyonokame.com/",
+    "brands": [
+      "千代の亀"
+    ],
+    "source_url": "https://www.chiyonokame.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-046",
+    "type": "sake",
+    "name_ja": "中城本家酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西予市城川町嘉喜尾1319",
+    "address_en": "",
+    "latitude": 33.405141,
+    "longitude": 132.735914,
+    "website": "https://shirokawagou.com/",
+    "brands": [
+      "城川郷"
+    ],
+    "source_url": "https://shirokawagou.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-047",
+    "type": "sake",
+    "name_ja": "西本酒造",
+    "name_en": "",
+    "address_ja": "愛媛県宇和島市三間町宮野下855",
+    "address_en": "",
+    "latitude": 33.290889,
+    "longitude": 132.606758,
+    "website": "http://toranoo.com/",
+    "brands": [
+      "虎の尾"
+    ],
+    "source_url": "http://toranoo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-049",
+    "type": "sake",
+    "name_ja": "松田酒造",
+    "name_en": "",
+    "address_ja": "愛媛県西宇和郡伊方町湊浦1003-2",
+    "address_en": "",
+    "latitude": 33.489371,
+    "longitude": 132.354004,
+    "website": "https://miyanomai.com/",
+    "brands": [
+      "宮の舞"
+    ],
+    "source_url": "https://miyanomai.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-050",
+    "type": "sake",
+    "name_ja": "水口酒造",
+    "name_en": "",
+    "address_ja": "愛媛県松山市道後喜多町3-23",
+    "address_en": "",
+    "latitude": 33.851179,
+    "longitude": 132.782433,
+    "website": "https://minakuchi-shuzo.jp/",
+    "brands": [
+      "仁喜多津"
+    ],
+    "source_url": "https://minakuchi-shuzo.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-051",
+    "type": "sake",
+    "name_ja": "名門サカイ",
+    "name_en": "",
+    "address_ja": "愛媛県宇和島市高串2-1045",
+    "address_en": "",
+    "latitude": 33.264161,
+    "longitude": 132.568677,
+    "website": "https://www.meimon.co.jp/",
+    "brands": [
+      "名門"
+    ],
+    "source_url": "https://www.meimon.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-052",
+    "type": "sake",
+    "name_ja": "元見屋酒店",
+    "name_en": "",
+    "address_ja": "愛媛県西予市宇和町卯之町3-88",
+    "address_en": "",
+    "latitude": 33.363364,
+    "longitude": 132.514995,
+    "website": "http://www.motomiya.jp/",
+    "brands": [
+      "開明"
+    ],
+    "source_url": "http://www.motomiya.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-053",
+    "type": "sake",
+    "name_ja": "八木酒造部",
+    "name_en": "",
+    "address_ja": "愛媛県今治市旭町3-3-8",
+    "address_en": "",
+    "latitude": 34.060038,
+    "longitude": 133.00251,
+    "website": "https://www.yamatan.jp/",
+    "brands": [
+      "山丹正宗"
+    ],
+    "source_url": "https://www.yamatan.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-054",
+    "type": "sake",
+    "name_ja": "雪雀酒造",
+    "name_en": "",
+    "address_ja": "愛媛県松山市柳原123",
+    "address_en": "",
+    "latitude": 33.95353,
+    "longitude": 132.772479,
+    "website": "https://yukisuzume.com/",
+    "brands": [
+      "雪雀"
+    ],
+    "source_url": "https://yukisuzume.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-055",
+    "type": "sake",
+    "name_ja": "養老酒造",
+    "name_en": "",
+    "address_ja": "愛媛県大洲市肱川町山鳥坂49",
+    "address_en": "",
+    "latitude": 33.455344,
+    "longitude": 132.684448,
+    "website": "https://yoroshuzo.jp/",
+    "brands": [
+      "風の里"
+    ],
+    "source_url": "https://yoroshuzo.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-057",
+    "type": "sake",
+    "name_ja": "有光酒造場",
+    "name_en": "",
+    "address_ja": "高知県安芸市赤野甲38-1",
+    "address_en": "",
+    "latitude": 33.516275,
+    "longitude": 133.833941,
+    "website": "https://akitora-sake.com/",
+    "brands": [
+      "安芸虎"
+    ],
+    "source_url": "https://akitora-sake.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-058",
+    "type": "sake",
+    "name_ja": "亀泉酒造",
+    "name_en": "",
+    "address_ja": "高知県土佐市出間2123-1",
+    "address_en": "",
+    "latitude": 33.477616,
+    "longitude": 133.387491,
+    "website": "http://www.kameizumi.co.jp/",
+    "brands": [
+      "亀泉"
+    ],
+    "source_url": "http://www.kameizumi.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-059",
+    "type": "sake",
+    "name_ja": "川澤酒造",
+    "name_en": "",
+    "address_ja": "高知県吾川郡いの町桑瀬370-7",
+    "address_en": "",
+    "latitude": 33.794659,
+    "longitude": 133.290126,
+    "website": "https://kawazawasake.jp/",
+    "brands": [
+      "山に雲が"
+    ],
+    "source_url": "https://kawazawasake.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-060",
+    "type": "sake",
+    "name_ja": "菊水酒造",
+    "name_en": "",
+    "address_ja": "高知県安芸市本町4-6-25",
+    "address_en": "",
+    "latitude": 33.500605,
+    "longitude": 133.899092,
+    "website": "http://www.tosa-kikusui.co.jp/",
+    "brands": [
+      "菊水"
+    ],
+    "source_url": "http://www.tosa-kikusui.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-061",
+    "type": "sake",
+    "name_ja": "高知酒造",
+    "name_en": "",
+    "address_ja": "高知県吾川郡いの町勝賀瀬780-2",
+    "address_en": "",
+    "latitude": 33.583966,
+    "longitude": 133.360181,
+    "website": "https://kochisake.com/",
+    "brands": [
+      "瀧嵐"
+    ],
+    "source_url": "https://kochisake.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-062",
+    "type": "sake",
+    "name_ja": "酔鯨酒造",
+    "name_en": "",
+    "address_ja": "高知県高知市長浜566-1",
+    "address_en": "",
+    "latitude": 33.501575,
+    "longitude": 133.549599,
+    "website": "https://suigei.co.jp/",
+    "brands": [
+      "酔鯨"
+    ],
+    "source_url": "https://suigei.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-063",
+    "type": "sake",
+    "name_ja": "仙頭酒造場",
+    "name_en": "",
+    "address_ja": "高知県安芸郡芸西村和食甲1551",
+    "address_en": "",
+    "latitude": 33.520418,
+    "longitude": 133.809994,
+    "website": "https://www.tosashiragiku.com/",
+    "brands": [
+      "土佐しらぎく"
+    ],
+    "source_url": "https://www.tosashiragiku.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-064",
+    "type": "sake",
+    "name_ja": "高木酒造",
+    "name_en": "",
+    "address_ja": "高知県香南市赤岡町443",
+    "address_en": "",
+    "latitude": 33.541857,
+    "longitude": 133.721879,
+    "website": "https://toyonoume.com/",
+    "brands": [
+      "豊能梅"
+    ],
+    "source_url": "https://toyonoume.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-065",
+    "type": "sake",
+    "name_ja": "司牡丹酒造",
+    "name_en": "",
+    "address_ja": "高知県高岡郡佐川町甲1299",
+    "address_en": "",
+    "latitude": 33.499419,
+    "longitude": 133.28913,
+    "website": "https://www.tsukasabotan.co.jp/",
+    "brands": [
+      "司牡丹"
+    ],
+    "source_url": "https://www.tsukasabotan.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-066",
+    "type": "sake",
+    "name_ja": "土佐酒造",
+    "name_en": "",
+    "address_ja": "高知県土佐郡土佐町田井418",
+    "address_en": "",
+    "latitude": 33.743572,
+    "longitude": 133.542936,
+    "website": "https://www.keigetsu.co.jp/",
+    "brands": [
+      "桂月"
+    ],
+    "source_url": "https://www.keigetsu.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-067",
+    "type": "sake",
+    "name_ja": "土佐鶴酒造",
+    "name_en": "",
+    "address_ja": "高知県安芸郡安田町安田1586",
+    "address_en": "",
+    "latitude": 33.437321,
+    "longitude": 133.978842,
+    "website": "https://tosatsuru.co.jp/",
+    "brands": [
+      "土佐鶴"
+    ],
+    "source_url": "https://tosatsuru.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-068",
+    "type": "sake",
+    "name_ja": "西岡酒造店",
+    "name_en": "",
+    "address_ja": "高知県高岡郡中土佐町久礼6154",
+    "address_en": "",
+    "latitude": 33.331105,
+    "longitude": 133.227836,
+    "website": "http://www.jyunpei.co.jp/",
+    "brands": [
+      "純平"
+    ],
+    "source_url": "http://www.jyunpei.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-069",
+    "type": "sake",
+    "name_ja": "濵川商店",
+    "name_en": "",
+    "address_ja": "高知県安芸郡田野町2150",
+    "address_en": "",
+    "latitude": 33.426109,
+    "longitude": 134.008263,
+    "website": "https://www.bijofu.jp/",
+    "brands": [
+      "美丈夫"
+    ],
+    "source_url": "https://www.bijofu.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-070",
+    "type": "sake",
+    "name_ja": "藤娘酒造",
+    "name_en": "",
+    "address_ja": "高知県四万十市中村新町4-5",
+    "address_en": "",
+    "latitude": 32.996611,
+    "longitude": 132.936176,
+    "website": "http://shimanto-fujimusume.com/",
+    "brands": [
+      "藤娘"
+    ],
+    "source_url": "http://shimanto-fujimusume.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-071",
+    "type": "sake",
+    "name_ja": "文本酒造",
+    "name_en": "",
+    "address_ja": "高知県高岡郡四万十町本町4-23",
+    "address_en": "",
+    "latitude": 33.210209,
+    "longitude": 133.133081,
+    "website": "https://fumimoto.jp/",
+    "brands": [
+      "SHIMANTO"
+    ],
+    "source_url": "https://fumimoto.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-072",
+    "type": "sake",
+    "name_ja": "松尾酒造",
+    "name_en": "",
+    "address_ja": "高知県香美市土佐山田町西本町5-1-1",
+    "address_en": "",
+    "latitude": 33.603538,
+    "longitude": 133.680308,
+    "website": "https://matsuokina.com/",
+    "brands": [
+      "松翁"
+    ],
+    "source_url": "https://matsuokina.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-073",
+    "type": "sake",
+    "name_ja": "南酒造場",
+    "name_en": "",
+    "address_ja": "高知県安芸郡安田町安田1875",
+    "address_en": "",
+    "latitude": 33.438721,
+    "longitude": 133.982014,
+    "website": "https://www.minamishuzoujo.com/",
+    "brands": [
+      "南"
+    ],
+    "source_url": "https://www.minamishuzoujo.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-074",
+    "type": "sake",
+    "name_ja": "無手無冠",
+    "name_en": "",
+    "address_ja": "高知県高岡郡四万十町大正452",
+    "address_en": "",
+    "latitude": 33.199618,
+    "longitude": 132.973793,
+    "website": "https://mutemuka.com/",
+    "brands": [
+      "無手無冠"
+    ],
+    "source_url": "https://mutemuka.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-005",
+    "type": "sake",
+    "name_ja": "丸尾本店",
+    "name_en": "",
+    "address_ja": "香川県仲多度郡琴平町榎井93",
+    "address_en": "",
+    "latitude": 34.191598,
+    "longitude": 133.828656,
+    "website": "",
+    "brands": [
+      "悦凱陣"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E5%B0%BE%E6%9C%AC%E5%BA%97%20%E9%A6%99%E5%B7%9D%E7%9C%8C%E4%BB%B2%E5%A4%9A%E5%BA%A6%E9%83%A1%E7%90%B4%E5%B9%B3%E7%94%BA%E6%A6%8E%E4%BA%9593",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-007",
+    "type": "sake",
+    "name_ja": "木内本店",
+    "name_en": "",
+    "address_ja": "徳島県板野郡藍住町富吉字須崎95-3",
+    "address_en": "",
+    "latitude": 34.139372,
+    "longitude": 134.481892,
+    "website": "",
+    "brands": [
+      "雲井橘"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E5%86%85%E6%9C%AC%E5%BA%97%20%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E8%97%8D%E4%BD%8F%E7%94%BA%E5%AF%8C%E5%90%89%E5%AD%97%E9%A0%88%E5%B4%8E95-3",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-008",
+    "type": "sake",
+    "name_ja": "近藤松太郎商店",
+    "name_en": "",
+    "address_ja": "徳島県徳島市国府町中297-1",
+    "address_en": "",
+    "latitude": 34.068411,
+    "longitude": 134.477298,
+    "website": "",
+    "brands": [
+      "旭牡丹"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E8%BF%91%E8%97%A4%E6%9D%BE%E5%A4%AA%E9%83%8E%E5%95%86%E5%BA%97%20%E5%BE%B3%E5%B3%B6%E7%9C%8C%E5%BE%B3%E5%B3%B6%E5%B8%82%E5%9B%BD%E5%BA%9C%E7%94%BA%E4%B8%AD297-1",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-010",
+    "type": "sake",
+    "name_ja": "定作酒類醸造場",
+    "name_en": "",
+    "address_ja": "徳島県勝浦郡勝浦町三渓字定岡102-3",
+    "address_en": "",
+    "latitude": 33.931255,
+    "longitude": 134.490556,
+    "website": "",
+    "brands": [
+      "桂華"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9A%E4%BD%9C%E9%85%92%E9%A1%9E%E9%86%B8%E9%80%A0%E5%A0%B4%20%E5%BE%B3%E5%B3%B6%E7%9C%8C%E5%8B%9D%E6%B5%A6%E9%83%A1%E5%8B%9D%E6%B5%A6%E7%94%BA%E4%B8%89%E6%B8%93%E5%AD%97%E5%AE%9A%E5%B2%A1102-3",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-020",
+    "type": "sake",
+    "name_ja": "矢川酒造",
+    "name_en": "",
+    "address_ja": "徳島県三好市池田町白地井ノ久保386-1",
+    "address_en": "",
+    "latitude": 34.018392,
+    "longitude": 133.777481,
+    "website": "",
+    "brands": [
+      "笹緑"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E5%B7%9D%E9%85%92%E9%80%A0%20%E5%BE%B3%E5%B3%B6%E7%9C%8C%E4%B8%89%E5%A5%BD%E5%B8%82%E6%B1%A0%E7%94%B0%E7%94%BA%E7%99%BD%E5%9C%B0%E4%BA%95%E3%83%8E%E4%B9%85%E4%BF%9D386-1",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-021",
+    "type": "sake",
+    "name_ja": "吉田酒造",
+    "name_en": "",
+    "address_ja": "徳島県徳島市川内町大松424-1",
+    "address_en": "",
+    "latitude": 34.117512,
+    "longitude": 134.573263,
+    "website": "",
+    "brands": [
+      "蘭玉"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%94%B0%E9%85%92%E9%80%A0%20%E5%BE%B3%E5%B3%B6%E7%9C%8C%E5%BE%B3%E5%B3%B6%E5%B8%82%E5%B7%9D%E5%86%85%E7%94%BA%E5%A4%A7%E6%9D%BE424-1",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-023",
+    "type": "sake",
+    "name_ja": "赤松本家酒造",
+    "name_en": "",
+    "address_ja": "愛媛県宇和島市津島町上畑地甲1502",
+    "address_en": "",
+    "latitude": 33.084468,
+    "longitude": 132.506119,
+    "website": "",
+    "brands": [
+      "泰山"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E6%9D%BE%E6%9C%AC%E5%AE%B6%E9%85%92%E9%80%A0%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E5%AE%87%E5%92%8C%E5%B3%B6%E5%B8%82%E6%B4%A5%E5%B3%B6%E7%94%BA%E4%B8%8A%E7%95%91%E5%9C%B0%E7%94%B21502",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-025",
+    "type": "sake",
+    "name_ja": "今村酒造",
+    "name_en": "",
+    "address_ja": "愛媛県四国中央市上分町742-2",
+    "address_en": "",
+    "latitude": 33.991346,
+    "longitude": 133.590769,
+    "website": "",
+    "brands": [
+      "豊稔"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%8A%E6%9D%91%E9%85%92%E9%80%A0%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E5%9B%9B%E5%9B%BD%E4%B8%AD%E5%A4%AE%E5%B8%82%E4%B8%8A%E5%88%86%E7%94%BA742-2",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-031",
+    "type": "sake",
+    "name_ja": "川亀酒造",
+    "name_en": "",
+    "address_ja": "愛媛県八幡浜市五反田2-4-1",
+    "address_en": "",
+    "latitude": 33.443814,
+    "longitude": 132.441016,
+    "website": "",
+    "brands": [
+      "川亀"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E4%BA%80%E9%85%92%E9%80%A0%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E5%85%AB%E5%B9%A1%E6%B5%9C%E5%B8%82%E4%BA%94%E5%8F%8D%E7%94%B02-4-1",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-034",
+    "type": "sake",
+    "name_ja": "小西酒造場",
+    "name_en": "",
+    "address_ja": "愛媛県南宇和郡愛南町蓮乗寺3",
+    "address_en": "",
+    "latitude": 32.957828,
+    "longitude": 132.583666,
+    "website": "",
+    "brands": [
+      "誠心"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E8%A5%BF%E9%85%92%E9%80%A0%E5%A0%B4%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E5%8D%97%E5%AE%87%E5%92%8C%E9%83%A1%E6%84%9B%E5%8D%97%E7%94%BA%E8%93%AE%E4%B9%97%E5%AF%BA3",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-039",
+    "type": "sake",
+    "name_ja": "佐々木酒造",
+    "name_en": "",
+    "address_ja": "愛媛県伊予郡砥部町総津785",
+    "address_en": "",
+    "latitude": 33.628522,
+    "longitude": 132.798201,
+    "website": "",
+    "brands": [
+      "八重菊"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E3%80%85%E6%9C%A8%E9%85%92%E9%80%A0%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BC%8A%E4%BA%88%E9%83%A1%E7%A0%A5%E9%83%A8%E7%94%BA%E7%B7%8F%E6%B4%A5785",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-044",
+    "type": "sake",
+    "name_ja": "武智酒店",
+    "name_en": "",
+    "address_ja": "愛媛県伊予郡松前町北黒田816",
+    "address_en": "",
+    "latitude": 33.778949,
+    "longitude": 132.703457,
+    "website": "",
+    "brands": [
+      "武士心"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E6%99%BA%E9%85%92%E5%BA%97%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BC%8A%E4%BA%88%E9%83%A1%E6%9D%BE%E5%89%8D%E7%94%BA%E5%8C%97%E9%BB%92%E7%94%B0816",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-048",
+    "type": "sake",
+    "name_ja": "正木正光酒造場",
+    "name_en": "",
+    "address_ja": "愛媛県北宇和郡松野町松丸178",
+    "address_en": "",
+    "latitude": 33.226898,
+    "longitude": 132.707258,
+    "website": "",
+    "brands": [
+      "野武士"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A3%E6%9C%A8%E6%AD%A3%E5%85%89%E9%85%92%E9%80%A0%E5%A0%B4%20%E6%84%9B%E5%AA%9B%E7%9C%8C%E5%8C%97%E5%AE%87%E5%92%8C%E9%83%A1%E6%9D%BE%E9%87%8E%E7%94%BA%E6%9D%BE%E4%B8%B8178",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "S-shk-056",
+    "type": "sake",
+    "name_ja": "アリサワ",
+    "name_en": "",
+    "address_ja": "高知県香美市土佐山田町西本町1-4-1",
+    "address_en": "",
+    "latitude": 33.606173,
+    "longitude": 133.68537,
+    "website": "",
+    "brands": [
+      "文佳人"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%AA%E3%82%B5%E3%83%AF%20%E9%AB%98%E7%9F%A5%E7%9C%8C%E9%A6%99%E7%BE%8E%E5%B8%82%E5%9C%9F%E4%BD%90%E5%B1%B1%E7%94%B0%E7%94%BA%E8%A5%BF%E6%9C%AC%E7%94%BA1-4-1",
+    "location_accuracy": "approximate_area"
   }
 ]
