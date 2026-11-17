@@ -3043,20 +3043,6 @@
     "location_accuracy": "exact"
   },
   {
-    "id": "W-knt-023",
-    "type": "winery",
-    "name_ja": "館山ワイナリー",
-    "name_en": "",
-    "address_ja": "千葉県館山市市川名774",
-    "address_en": "",
-    "latitude": 35.02884528185846,
-    "longitude": 139.86047575394528,
-    "website": "https://matthewswine.net/",
-    "brands": [],
-    "source_url": "https://www.winery.or.jp/winery-map/",
-    "location_accuracy": "exact"
-  },
-  {
     "id": "W-knt-024",
     "type": "winery",
     "name_ja": "九十九里ワイナリー",
@@ -3191,20 +3177,6 @@
     "location_accuracy": "exact"
   },
   {
-    "id": "W-knt-034",
-    "type": "winery",
-    "name_ja": "都下ワイナリー",
-    "name_en": "TOKA winery",
-    "address_ja": "東京都日野市日野台2-40-12",
-    "address_en": "",
-    "latitude": 35.679859230542604,
-    "longitude": 139.37777410674659,
-    "website": "https://www.tokawinery.jp/",
-    "brands": [],
-    "source_url": "https://www.winery.or.jp/winery-map/",
-    "location_accuracy": "exact"
-  },
-  {
     "id": "W-knt-035",
     "type": "winery",
     "name_ja": "WINEMAN FACTORY",
@@ -3276,5 +3248,419 @@
     "brands": [],
     "source_url": "https://nihon.wine/",
     "location_accuracy": "exact"
+  },
+  {
+    "id": "W-tkh-001",
+    "type": "winery",
+    "name_ja": "中伊豆ワイナリーヒルズ",
+    "name_en": "",
+    "address_ja": "静岡県伊豆市下白岩1431",
+    "address_en": "",
+    "latitude": 34.990841,
+    "longitude": 139.004517,
+    "website": "https://www.nakaizuwinery.com/",
+    "brands": [
+      "伊豆ワイン シャトーT.S"
+    ],
+    "source_url": "https://www.nakaizuwinery.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-002",
+    "type": "winery",
+    "name_ja": "富士山ワイナリー",
+    "name_en": "",
+    "address_ja": "静岡県富士宮市根原宝山498",
+    "address_en": "",
+    "latitude": 35.421898,
+    "longitude": 138.596878,
+    "website": "https://www.fujisanwinery.co.jp/",
+    "brands": [
+      "富士山ワイン"
+    ],
+    "source_url": "https://www.fujisanwinery.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-003",
+    "type": "winery",
+    "name_ja": "御殿場高原ワイン",
+    "name_en": "",
+    "address_ja": "静岡県御殿場市神山719",
+    "address_en": "",
+    "latitude": 35.23521,
+    "longitude": 138.925858,
+    "website": "https://www.gkwine.jp/",
+    "brands": [
+      "御殿場高原ワイン"
+    ],
+    "source_url": "https://www.gkwine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-004",
+    "type": "winery",
+    "name_ja": "GK WINERY東伊豆",
+    "name_en": "",
+    "address_ja": "静岡県賀茂郡東伊豆町稲取3348-13",
+    "address_en": "",
+    "latitude": 34.787994,
+    "longitude": 139.044861,
+    "website": "https://www.gkwine.jp/",
+    "brands": [
+      "東伊豆みかんワイン"
+    ],
+    "source_url": "https://www.gkwine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-005",
+    "type": "winery",
+    "name_ja": "はままつフルーツパーク時之栖 ワインカーヴ",
+    "name_en": "",
+    "address_ja": "静岡県浜松市浜名区都田町4263-1",
+    "address_en": "",
+    "latitude": 34.840424,
+    "longitude": 137.73584,
+    "website": "https://hamamatsu-fp.co.jp/winery/",
+    "brands": [],
+    "source_url": "https://hamamatsu-fp.co.jp/winery/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-006",
+    "type": "winery",
+    "name_ja": "小牧ワイナリー",
+    "name_en": "",
+    "address_ja": "愛知県小牧市大字野口字大洞2325-2",
+    "address_en": "",
+    "latitude": 35.322292,
+    "longitude": 136.992996,
+    "website": "https://komakiwinery.com/",
+    "brands": [
+      "AJUワイン"
+    ],
+    "source_url": "https://komakiwinery.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-007",
+    "type": "winery",
+    "name_ja": "常滑ワイナリー・ネイバーフッド",
+    "name_en": "",
+    "address_ja": "愛知県常滑市金山上白田130",
+    "address_en": "",
+    "latitude": 34.914768,
+    "longitude": 136.83815,
+    "website": "https://www.veraison.info/",
+    "brands": [
+      "常滑ワイン"
+    ],
+    "source_url": "https://www.veraison.info/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-008",
+    "type": "winery",
+    "name_ja": "春日井ワイナリー 春の風",
+    "name_en": "",
+    "address_ja": "愛知県春日井市御幸町3丁目4-6",
+    "address_en": "",
+    "latitude": 35.221684,
+    "longitude": 136.943283,
+    "website": "https://www.harunokaze-wine.jp/",
+    "brands": [
+      "春の風"
+    ],
+    "source_url": "https://www.harunokaze-wine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-009",
+    "type": "winery",
+    "name_ja": "Azucca e Azucco",
+    "name_en": "Azucca e Azucco",
+    "address_ja": "愛知県豊田市太平町七曲12-691",
+    "address_en": "",
+    "latitude": 35.102585,
+    "longitude": 137.116074,
+    "website": "https://azu-azu.sakura.ne.jp/",
+    "brands": [
+      "オオカミの雲"
+    ],
+    "source_url": "https://azu-azu.sakura.ne.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-010",
+    "type": "winery",
+    "name_ja": "あんこ椿／椿酒造",
+    "name_en": "Encore Tsubaki",
+    "address_ja": "愛知県日進市蟹甲町池下201-3",
+    "address_en": "",
+    "latitude": 35.130405,
+    "longitude": 137.039032,
+    "website": "https://encoretsubaki.com/",
+    "brands": [],
+    "source_url": "https://encoretsubaki.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-012",
+    "type": "winery",
+    "name_ja": "ANGIE Père et Fils",
+    "name_en": "ANGIE Père et Fils",
+    "address_ja": "岐阜県揖斐郡池田町小寺782-2",
+    "address_en": "",
+    "latitude": 35.43906,
+    "longitude": 136.541428,
+    "website": "https://angie-pere-et-fils.jp/",
+    "brands": [],
+    "source_url": "https://angie-pere-et-fils.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-013",
+    "type": "winery",
+    "name_ja": "ドメーヌヒサマツ",
+    "name_en": "",
+    "address_ja": "岐阜県岐阜市長良福光1600-9",
+    "address_en": "",
+    "latitude": 35.448872,
+    "longitude": 136.774658,
+    "website": "https://www.domainehisamatsu.com/",
+    "brands": [],
+    "source_url": "https://www.domainehisamatsu.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-016",
+    "type": "winery",
+    "name_ja": "森の生活恵那峡ワイナリー",
+    "name_en": "",
+    "address_ja": "岐阜県恵那市大井町2693-417",
+    "address_en": "",
+    "latitude": 35.474663,
+    "longitude": 137.40657,
+    "website": "http://www.cherish-care.co.jp/",
+    "brands": [],
+    "source_url": "http://www.cherish-care.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-018",
+    "type": "winery",
+    "name_ja": "神言会多治見修道院",
+    "name_en": "",
+    "address_ja": "岐阜県多治見市緑ヶ丘38",
+    "address_en": "",
+    "latitude": 35.34264,
+    "longitude": 137.134903,
+    "website": "https://svdtajimi.com/",
+    "brands": [],
+    "source_url": "https://svdtajimi.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-019",
+    "type": "winery",
+    "name_ja": "伊勢美し国醸造所",
+    "name_en": "",
+    "address_ja": "三重県伊勢市大世古2丁目5-11",
+    "address_en": "",
+    "latitude": 34.49535,
+    "longitude": 136.703003,
+    "website": "https://iseshima-winery.co.jp/",
+    "brands": [
+      "美し国オレンジ",
+      "美し国ノワール"
+    ],
+    "source_url": "https://iseshima-winery.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-020",
+    "type": "winery",
+    "name_ja": "伊勢ワイン株式会社",
+    "name_en": "",
+    "address_ja": "三重県伊勢市村松町1375-6",
+    "address_en": "",
+    "latitude": 34.538624,
+    "longitude": 136.669815,
+    "website": "https://ise-wine.co.jp/",
+    "brands": [],
+    "source_url": "https://ise-wine.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-021",
+    "type": "winery",
+    "name_ja": "國津果實酒醸造所",
+    "name_en": "",
+    "address_ja": "三重県名張市神屋1866",
+    "address_en": "",
+    "latitude": 34.588284,
+    "longitude": 136.141785,
+    "website": "https://www.kunitsu-wine.com/",
+    "brands": [
+      "國津ワイン"
+    ],
+    "source_url": "https://www.kunitsu-wine.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-022",
+    "type": "winery",
+    "name_ja": "やまふじぶどう園",
+    "name_en": "",
+    "address_ja": "富山県富山市婦中町みさご谷10",
+    "address_en": "",
+    "latitude": 36.629936,
+    "longitude": 137.119141,
+    "website": "https://www.winery.co.jp/",
+    "brands": [
+      "やまぶどうワイン",
+      "巨峰ワイン"
+    ],
+    "source_url": "https://www.winery.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-023",
+    "type": "winery",
+    "name_ja": "SAYS FARM",
+    "name_en": "SAYS FARM",
+    "address_ja": "富山県氷見市余川字北山238",
+    "address_en": "",
+    "latitude": 36.88932,
+    "longitude": 136.945236,
+    "website": "https://www.saysfarm.com/",
+    "brands": [],
+    "source_url": "https://www.saysfarm.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-024",
+    "type": "winery",
+    "name_ja": "Domaine Beau",
+    "name_en": "Domaine Beau",
+    "address_ja": "富山県南砺市立野原西1197",
+    "address_en": "",
+    "latitude": 36.511795,
+    "longitude": 136.869492,
+    "website": "https://tresbeau.co.jp/",
+    "brands": [],
+    "source_url": "https://tresbeau.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-025",
+    "type": "winery",
+    "name_ja": "KANATA WINERY",
+    "name_en": "KANATA WINERY",
+    "address_ja": "富山県魚津市天神野新字西大野147-1",
+    "address_en": "",
+    "latitude": 36.832336,
+    "longitude": 137.441818,
+    "website": "https://kanatawinery.com/",
+    "brands": [
+      "Buffalo Metodo Classico"
+    ],
+    "source_url": "https://kanatawinery.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-026",
+    "type": "winery",
+    "name_ja": "能登ワイン",
+    "name_en": "",
+    "address_ja": "石川県鳳珠郡穴水町字旭ケ丘り5-1",
+    "address_en": "",
+    "latitude": 37.220726,
+    "longitude": 136.982178,
+    "website": "https://notowine.com/",
+    "brands": [
+      "能登ワイン"
+    ],
+    "source_url": "https://notowine.com/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-027",
+    "type": "winery",
+    "name_ja": "ハイディワイナリー",
+    "name_en": "",
+    "address_ja": "石川県輪島市門前町千代31-21-1",
+    "address_en": "",
+    "latitude": 37.266563,
+    "longitude": 136.739731,
+    "website": "https://heidee-winery.jp/",
+    "brands": [
+      "Quartet Sparkling Flower"
+    ],
+    "source_url": "https://heidee-winery.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-028",
+    "type": "winery",
+    "name_ja": "Vin de la bocchi farm & winery",
+    "name_en": "Vin de la bocchi farm & winery",
+    "address_ja": "石川県金沢市俵町コ11-3",
+    "address_en": "",
+    "latitude": 36.531448,
+    "longitude": 136.723129,
+    "website": "https://labocchi.jp/",
+    "brands": [],
+    "source_url": "https://labocchi.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-029",
+    "type": "winery",
+    "name_ja": "金沢ワイナリー",
+    "name_en": "",
+    "address_ja": "石川県金沢市尾張町1丁目9-9",
+    "address_en": "",
+    "latitude": 36.571125,
+    "longitude": 136.661957,
+    "website": "https://k-wine.jp/",
+    "brands": [
+      "金澤ワイン"
+    ],
+    "source_url": "https://k-wine.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-030",
+    "type": "winery",
+    "name_ja": "白山ワイナリー",
+    "name_en": "",
+    "address_ja": "福井県大野市落合2-24",
+    "address_en": "",
+    "latitude": 35.986584,
+    "longitude": 136.583862,
+    "website": "https://www.yamabudou.co.jp/",
+    "brands": [
+      "白山ワイン"
+    ],
+    "source_url": "https://www.yamabudou.co.jp/",
+    "location_accuracy": "approximate_area"
+  },
+  {
+    "id": "W-tkh-031",
+    "type": "winery",
+    "name_ja": "SIX THREE ESTATE WINERY",
+    "name_en": "SIX THREE ESTATE WINERY",
+    "address_ja": "福井県越前市葛岡町8-10-1",
+    "address_en": "",
+    "latitude": 35.901623,
+    "longitude": 136.193848,
+    "website": "https://six-three-estate.jp/",
+    "brands": [
+      "越前ワイン"
+    ],
+    "source_url": "https://six-three-estate.jp/",
+    "location_accuracy": "approximate_area"
   }
 ]
