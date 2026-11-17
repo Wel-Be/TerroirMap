@@ -29,7 +29,7 @@ a{color:#365D79}
   <ol>
     <li>「CSVを選ぶ」で <b>facilities-master.csv</b> を選びます。</li>
     <li>「座標を取得」を押します。座標が空欄の行だけ、国土地理院の住所検索で調べます（1件ずつ、時間がかかります）。</li>
-    <li>表の「要確認」「見つからない」の行は、「Googleマップ」リンクで場所を確かめ、緯度・経度を直接書き換えます。</li>
+    <li>表の「要確認」「見つからない」「同じ座標が○件」の行は、「Googleマップ」リンクで場所を確かめ、緯度・経度を書き換えます。Googleマップで場所を長押し（PCは右クリック）して出る「43.19, 140.80」のような座標を、そのまま緯度の欄に貼り付ければ、緯度と経度に自動で分かれます。手で座標を入れた行は、位置の精度が「確認済み」になります。</li>
     <li>エラーがなくなったら「facilities.json をダウンロード」を押し、GitHub の <code>data/facilities.json</code> に上書きします。</li>
     <li>次回また使えるよう、「座標入りCSVをダウンロード」で保存しておくと便利です。</li>
   </ol>
@@ -42,6 +42,7 @@ a{color:#365D79}
   <button id="run" type="button" disabled>座標を取得</button>
   <button id="dl-json" class="sub" type="button" disabled>facilities.json をダウンロード</button>
   <button id="dl-csv" class="sub" type="button" disabled>座標入りCSVをダウンロード</button>
+  <div><label><input type="checkbox" id="only-dup"> 座標が重なっている施設だけ表示（地図で重なって押せなくなる施設を直すとき）</label></div>
   <div id="summary"></div>
   <ul class="errs" id="errors"></ul>
 </div>
@@ -103,6 +104,9 @@ function toCSV(items){
   const esc=v=>{v=v===null||v===undefined?"":String(v);return /[",\r\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;};
   return "\uFEFF"+[cols.join(",")].concat(items.map(x=>cols.map(c=>esc(x[c])).join(","))).join("\r\n")+"\r\n";
 }
+function coordKey(x){return (x.latitude===null||x.longitude===null)?"":x.latitude.toFixed(5)+","+x.longitude.toFixed(5);}
+function overlapCounts(list){const m={};list.forEach(x=>{const k=coordKey(x);if(k)m[k]=(m[k]||0)+1;});return m;}
+function parseLatLng(s){const m=String(s).trim().match(/^(-?\d+(?:\.\d+)?)\s*[,，、\s]\s*(-?\d+(?:\.\d+)?)$/);return m?[Number(m[1]),Number(m[2])]:null;}
 async function geocode(address){
   const res=await fetch("https://msearch.gsi.go.jp/address-search/AddressSearch?q="+encodeURIComponent(address));
   if(!res.ok)throw new Error("HTTP "+res.status);
@@ -115,21 +119,31 @@ async function geocode(address){
 // ---------- 画面 ----------
 let items=[];
 const $=id=>document.getElementById(id);
+let onlyDup=false;
 function render(){
   const tb=$("rows");tb.innerHTML="";
-  items.forEach(x=>{
+  const counts=overlapCounts(items);
+  (onlyDup?items.filter(x=>counts[coordKey(x)]>1):items).forEach(x=>{
     const tr=document.createElement("tr");
     const td=(n)=>{const e=document.createElement("td");if(n!==undefined)e.textContent=n;tr.append(e);return e;};
     td(x.name_ja);td(x.address_ja);
-    [["latitude"],["longitude"]].forEach(([k])=>{
+    ["latitude","longitude"].forEach(k=>{
       const e=td();const i=document.createElement("input");i.value=x[k]===null?"":x[k];
-      i.addEventListener("change",()=>{const v=i.value.trim();x[k]=v===""||Number.isNaN(Number(v))?null:Number(v);refresh();});
+      i.addEventListener("change",()=>{
+        const pair=parseLatLng(i.value);
+        if(pair){x.latitude=pair[0];x.longitude=pair[1];}
+        else{const v=i.value.trim();x[k]=v===""||Number.isNaN(Number(v))?null:Number(v);}
+        if(x.latitude!==null&&x.longitude!==null){x.location_accuracy="exact";x.status="手入力（確認済みにしました）";}
+        render();
+      });
       e.append(i);
     });
     const ea=td();const sel=document.createElement("select");
     [["approximate_area","概略位置"],["exact","確認済み"]].forEach(([v,l])=>{const o=document.createElement("option");o.value=v;o.textContent=l;if(x.location_accuracy===v)o.selected=true;sel.append(o);});
     sel.addEventListener("change",()=>{x.location_accuracy=sel.value;refresh();});ea.append(sel);
-    const es=td(x.status);es.className=/要確認|見つからない|失敗/.test(x.status)?"warn":(x.status?"ok":"");x._statusCell=es;
+    const oc=counts[coordKey(x)]||0;
+    const es=td((x.status||"")+(oc>1?(x.status?"／":"")+"同じ座標が"+oc+"件":""));
+    es.className=(oc>1||/要確認|見つからない|失敗/.test(x.status))?"warn":(x.status?"ok":"");
     const el=td();const a=document.createElement("a");a.target="_blank";a.rel="noopener noreferrer";a.textContent="Googleマップ";
     a.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.name_ja+" "+x.address_ja);el.append(a);
     tb.append(tr);
@@ -140,7 +154,8 @@ function refresh(){
   const errs=validate(toJSONList(items));
   $("errors").innerHTML="";errs.slice(0,30).forEach(e=>{const li=document.createElement("li");li.textContent=e;$("errors").append(li);});
   const missing=items.filter(x=>x.latitude===null||x.longitude===null).length;
-  $("summary").textContent=items.length?`${items.length}件／座標なし ${missing}件／エラー ${errs.length}件`:"";
+  const oc=overlapCounts(items);const dup=items.filter(x=>oc[coordKey(x)]>1).length;
+  $("summary").textContent=items.length?`${items.length}件／座標なし ${missing}件／座標が重なる施設 ${dup}件／エラー ${errs.length}件`:"";
   $("dl-json").disabled=!items.length||errs.length>0;
   $("dl-csv").disabled=!items.length;
   $("run").disabled=!items.length||missing===0;
@@ -171,6 +186,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     items=toItems(parseCSV(await f.text()));render();
   });
   $("run").addEventListener("click",run);
+  $("only-dup").addEventListener("change",e=>{onlyDup=e.target.checked;render();});
   $("dl-json").addEventListener("click",()=>download("facilities.json",JSON.stringify(toJSONList(items),null,2),"application/json"));
   $("dl-csv").addEventListener("click",()=>download("facilities-master-with-coords.csv",toCSV(items),"text/csv"));
 });

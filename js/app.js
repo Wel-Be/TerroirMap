@@ -19,7 +19,7 @@ const words={
  tabFav:"お気に入り",tabVisited:"訪問した",tabTasted:"味わった",
  emptyFav:"お気に入りに登録した施設はまだありません。",emptyVisited:"訪問した施設の記録はまだありません。",emptyTasted:"味わった施設の記録はまだありません。",
  recordedOn:"記録日",confirmRemove:"この記録を削除しますか？",
- wineryType:"WINERY / ワイナリー",sakeType:"SAKE BREWERY / 酒蔵",locating:"現在地を確認しています…",
+ typeWinery:"ワイナリー",typeSake:"酒蔵",chooserTitle:"この場所の施設",wineryType:"WINERY / ワイナリー",sakeType:"SAKE BREWERY / 酒蔵",locating:"現在地を確認しています…",
  locationError:"現在地を取得できませんでした。位置情報の利用を許可しているか確認してください。地図はそのまま利用できます。",
  locationUnsupported:"このブラウザでは現在地を利用できません。",none:"情報なし",removeButton:"削除",
  positionLabel:"位置",approx:"概略位置です。実際の施設の場所とは異なる場合があります。",privacy:"プライバシーについて",mapNote:"地図データ © OpenStreetMap contributors",gmap:"Googleマップで開く ↗"
@@ -33,7 +33,7 @@ const words={
  tabFav:"Favorites",tabVisited:"Visited",tabTasted:"Tasted",
  emptyFav:"You have no favorite places yet.",emptyVisited:"No visited places recorded yet.",emptyTasted:"No tasted places recorded yet.",
  recordedOn:"Recorded",confirmRemove:"Delete this record?",
- wineryType:"WINERY",sakeType:"SAKE BREWERY",locating:"Finding your location…",
+ typeWinery:"Winery",typeSake:"Sake brewery",chooserTitle:"Places here",wineryType:"WINERY",sakeType:"SAKE BREWERY",locating:"Finding your location…",
  locationError:"Could not get your location. Check your location permission. You can continue using the map.",
  locationUnsupported:"Geolocation is not supported by this browser.",none:"Not available",removeButton:"Remove",
  positionLabel:"Location",approx:"Approximate location. It may differ from the actual site.",privacy:"Privacy",mapNote:"Map data © OpenStreetMap contributors",gmap:"Open in Google Maps ↗"
@@ -52,7 +52,7 @@ async function startApp(){
   const response=await fetch("./data/facilities.json",{cache:"no-cache"});
   if(!response.ok)throw new Error("施設データを読み込めませんでした。");
   facilities=await response.json();
-  TerroirMap.setFacilities(facilities,showDetail);
+  TerroirMap.setFacilities(facilities,showDetail,openChooser);
   document.querySelectorAll(".filter-button").forEach(button=>button.addEventListener("click",()=>{
     currentFilter=button.dataset.filter;
     document.querySelectorAll(".filter-button").forEach(b=>b.classList.toggle("active",b===button));
@@ -63,6 +63,7 @@ async function startApp(){
   document.getElementById("locate-button").addEventListener("click",locateUser);
   document.getElementById("open-favorites").addEventListener("click",openMyList);
   document.getElementById("close-favorites").addEventListener("click",closePanels);
+  document.getElementById("close-chooser").addEventListener("click",closePanels);
   document.getElementById("sheet-close").addEventListener("click",closePanels);
   document.getElementById("sheet-backdrop").addEventListener("click",closePanels);
   document.getElementById("favorite-toggle").addEventListener("click",toggleFavorite);
@@ -115,6 +116,7 @@ function updateMarkButtons(){
 function closePanels(){
   document.getElementById("detail-sheet").classList.remove("open");
   document.getElementById("favorites-panel").classList.remove("open");
+  document.getElementById("chooser-panel").classList.remove("open");
   document.getElementById("sheet-backdrop").classList.remove("open");
 }
 function toggleFavorite(){
@@ -174,6 +176,22 @@ function removeFromList(item){
   }
   renderMyList();updateMarkButtons();
 }
+function openChooser(items){
+  const list=document.getElementById("chooser-list");list.innerHTML="";
+  items.forEach(item=>{
+    const row=document.createElement("div");row.className="favorite-item";
+    const info=document.createElement("button");info.type="button";info.className="favorite-item-info";
+    info.style.cssText="border:0;background:transparent;text-align:left;padding:0;flex:1;cursor:pointer";
+    const name=document.createElement("strong");name.textContent=getName(item);
+    const address=document.createElement("small");address.textContent=getAddress(item)||t("none");
+    const kind=document.createElement("small");kind.textContent=item.type==="winery"?t("typeWinery"):t("typeSake");
+    info.append(name,address,kind);
+    info.addEventListener("click",()=>{closePanels();showDetail(item);});
+    row.append(info);list.append(row);
+  });
+  document.getElementById("chooser-panel").classList.add("open");
+  document.getElementById("sheet-backdrop").classList.add("open");
+}
 function toggleLanguage(){
   currentLanguage=currentLanguage==="ja"?"en":"ja";
   localStorage.setItem("terroirmap-language",currentLanguage);
@@ -185,7 +203,7 @@ function applyLanguage(){
   document.getElementById("language-toggle").textContent=currentLanguage==="ja"?"EN":"日本語";
   const mapText={tagline:"tagline","page-title":"title","intro-copy":"intro","filter-all":"all","filter-winery":"winery","filter-sake":"sake",
     "locate-label":"locate","favorites-label":"myList","how-title":"how","how-copy":"howCopy","support-link":"support",
-    "address-label":"address","brand-label":"brands","favorites-title":"myList","accuracy-label":"positionLabel","privacy-link":"privacy","map-note":"mapNote"};
+    "address-label":"address","brand-label":"brands","favorites-title":"myList","accuracy-label":"positionLabel","privacy-link":"privacy","map-note":"mapNote","chooser-title":"chooserTitle"};
   Object.entries(mapText).forEach(([id,key])=>document.getElementById(id).textContent=t(key));
   document.getElementById("detail-website").textContent=t("website");
   document.getElementById("detail-gmap").textContent=t("gmap");

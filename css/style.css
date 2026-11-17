@@ -40,3 +40,4 @@ html[lang="ja"] [lang="en"],html[lang="en"] [lang="ja"]{display:none}
 .favorite-toggle.on{background:var(--navy);color:#fff;border-color:var(--navy)}
 .tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.tab{border:1px solid #DCE2DD;border-radius:999px;background:#fff;color:#52606B;padding:7px 12px;font-size:12px;cursor:pointer}.tab.active{background:var(--navy);border-color:var(--navy);color:#fff}
 .record-date{color:#8A6A2F!important}
+.cluster-marker{border-radius:50%;background:var(--navy);color:#fff;border:3px solid #fff;box-shadow:0 2px 8px #0005;display:grid;place-items:center;font-weight:700;font-size:13px}.cluster-marker span{line-height:1}
